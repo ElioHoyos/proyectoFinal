@@ -15,6 +15,7 @@ namespace ProyectoFinal
         public HomePage()
         {
             InitializeComponent();
+            
         }
     }
 }

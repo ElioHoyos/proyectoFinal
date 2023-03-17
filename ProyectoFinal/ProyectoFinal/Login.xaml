@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProyectoFinal.Login"
+             BackgroundImageSource="https://i.pinimg.com/736x/66/4b/6a/664b6af1e2428aed06246af0c6581efb.jpg">
+    <ContentPage.Content>
+        <StackLayout>
+            <Image  Grid.ColumnSpan="2" Source="https://images.vexels.com/media/users/3/142890/isolated/preview/4ea2d7c4bf3cad23a4f18ee58752deb8-logotipo-de-anillos-de-alta-tecnologia.png" 
+                       TranslationY="16" VerticalOptions="Start" Aspect="AspectFit" HeightRequest="200"/>
+
+            <Label Text="Bienvenido" TextColor="Black" FontSize="50" 
+                   HorizontalTextAlignment="Center" TranslationY="40"/>
+
+            <Label Text="Login" FontSize="45" FontAttributes="Bold" TextColor="Black" 
+                   TranslationY="50" Margin="10" HorizontalTextAlignment="Center"/>
+
+
+            <Entry Placeholder="Usuario"  TranslationY="70" Margin="20"
+                   HorizontalOptions="Center"   WidthRequest="300" PlaceholderColor="Black"/>
+
+
+
+            <Entry Placeholder="Contraseña"  TextColor="Black" Margin="10"
+                    TranslationY="90" HorizontalOptions="Center" WidthRequest="300" PlaceholderColor="Black" />
+
+
+            <Button Text="Ingresar" HorizontalOptions="Start" BorderWidth="2" BorderColor="Black"
+                    BackgroundColor="Transparent" TranslationY="150" TranslationX="20" CornerRadius="7" x:Name="Btn" Clicked="Btn_Clicked"/>
+
+            <Button Text="Registrarse" HorizontalOptions="End" BorderWidth="2" BorderColor="Black" x:Name="Btn2" Clicked="Btn2_Clicked"
+                    BackgroundColor="Transparent" TranslationY="100" TranslationX="-20" CornerRadius="7"  />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

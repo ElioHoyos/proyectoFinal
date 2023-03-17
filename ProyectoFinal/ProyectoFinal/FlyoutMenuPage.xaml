@@ -6,9 +6,18 @@
              Title="Barra de Menu"
              >
     <StackLayout>
-        <ListView x:Name="listView" x:FieldModifier="public">
+        <Grid>
+            
+            <StackLayout Padding="0,20,0,0" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+                <Image Source="https://images.vexels.com/media/users/3/142890/isolated/preview/4ea2d7c4bf3cad23a4f18ee58752deb8-logotipo-de-anillos-de-alta-tecnologia.png"
+                       HeightRequest="100"/>
+
+                <Label Text="Bienvenido" TextColor="Black" FontSize="Small" HorizontalTextAlignment="Center" />
+            </StackLayout>
+        </Grid>
+        <ListView x:Name="listView" x:FieldModifier="public" Margin="15">
             <ListView.ItemsSource>
-                <x:Array Type="{x:Type local:FlyoutItemPage}">
+                <x:Array Type="{x:Type local:FlyoutItemPage}" >
                     <local:FlyoutItemPage Title="Inicio" IconSource="house.png" TargetPage="{x:Type local:HomePage}"></local:FlyoutItemPage>
                     <local:FlyoutItemPage Title="Categorias" IconSource="folder.png" TargetPage="{x:Type local:CategoriaPage}"></local:FlyoutItemPage>
                     <local:FlyoutItemPage Title="Productos" IconSource="textfile.png" TargetPage="{x:Type local:ProductoPage}"></local:FlyoutItemPage>

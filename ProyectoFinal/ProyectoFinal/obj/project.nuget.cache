@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "JuvG17qjYKlCFyw7eH2RltLApSP/7FqtUp7L2qZfUwIdvSngoS+fpAg7+2awE7wIZcVB5r2gYeS4bWUMHW7M4A==",
+  "dgSpecHash": "mfXowtLb/b4P+O2pB4SAwVHQGNa3loIEjTsUkeI2O4ML+9vI7uQM+CO0Wfz9dnmGfC9D/+yHmrVz6zwXx4DNVA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\INSTRUCTOR\\Documents\\CLASE\\ProyectoFinal\\ProyectoFinal\\ProyectoFinal\\ProyectoFinal.csproj",
+  "projectFilePath": "D:\\github\\proyectoFinal\\ProyectoFinal\\ProyectoFinal\\ProyectoFinal.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\INSTRUCTOR\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\INSTRUCTOR\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
-    "C:\\Users\\INSTRUCTOR\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
-    "C:\\Users\\INSTRUCTOR\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
-    "C:\\Users\\INSTRUCTOR\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+    "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
   ],
   "logs": []
 }

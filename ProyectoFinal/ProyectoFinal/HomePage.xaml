@@ -3,11 +3,33 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ProyectoFinal.HomePage"
              Title="Inicio">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Hola Bienvenido al Sistema"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
-    </ContentPage.Content>
+
+    <StackLayout>
+        <Frame CornerRadius="25"  Margin="10" Padding="10" HorizontalOptions="Center">
+            <Image Source="https://www.10wallpaper.com/wallpaper/medium/1208/Water_From_The_Rising_Sun-natural_landscape_wallpaper_medium.jpg" Margin="-10"/> 
+        </Frame>
+
+        <Frame WidthRequest="150" HeightRequest="150" CornerRadius="100" HorizontalOptions="Center" TranslationY="-120" >
+            <Image Source="https://img.quizur.com/f/img63f5627ee4d2a4.70004822.jpg?lastEdited=1677025922"
+                   HeightRequest="500" Margin="-60" HorizontalOptions="Center"/>
+        </Frame>
+
+        <Label Text="Luis Angel" TextColor="Black" FontSize="20" FontAttributes="Bold" Padding="10"  HorizontalOptions="Center" TranslationY="-125"/>
+        <Label Text="Estudiante de Programación en Senati " TextColor="Black" FontSize="20"  Margin="10"  HorizontalOptions="Center" TranslationY="-125"/>
+
+        <ImageButton Source="https://o.remove.bg/downloads/dd859fa2-9811-4168-ad44-27fd74ccd3ac/download-removebg-preview.png" TranslationY="-120" TranslationX="20"
+                     BorderColor="Black" BorderWidth="2" HorizontalOptions="Start" HeightRequest="50" WidthRequest="160" BackgroundColor="Transparent"/>
+
+        <ImageButton Source="https://o.remove.bg/downloads/090f4197-ca2a-443b-9dff-cfd0826263d8/download-removebg-preview.png"
+                     HorizontalOptions="Center" BackgroundColor="Transparent" HeightRequest="50" BorderColor="Black" BorderWidth="2"/>
+
+
+
+
+
+
+
+
+    </StackLayout>
+    
 </ContentPage>
