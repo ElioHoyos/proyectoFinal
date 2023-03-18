@@ -6,13 +6,13 @@
              Title="Barra de Menu"
              >
     <StackLayout>
-        <Grid>
+        <Grid Padding="10">
             
             <StackLayout Padding="0,20,0,0" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
                 <Image Source="https://images.vexels.com/media/users/3/142890/isolated/preview/4ea2d7c4bf3cad23a4f18ee58752deb8-logotipo-de-anillos-de-alta-tecnologia.png"
                        HeightRequest="100"/>
 
-                <Label Text="Bienvenido" TextColor="Black" FontSize="Small" HorizontalTextAlignment="Center" />
+                <Label Text="LM" TextColor="Black" FontSize="20" HorizontalTextAlignment="Center" Padding="15" />
             </StackLayout>
         </Grid>
         <ListView x:Name="listView" x:FieldModifier="public" Margin="15">
