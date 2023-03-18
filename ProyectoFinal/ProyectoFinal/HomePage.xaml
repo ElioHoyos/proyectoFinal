@@ -5,39 +5,31 @@
              Title="Inicio">
 
     <StackLayout>
-        <Frame CornerRadius="25"  Margin="10" Padding="10" HorizontalOptions="Center">
-            <Image Source="https://www.10wallpaper.com/wallpaper/medium/1208/Water_From_The_Rising_Sun-natural_landscape_wallpaper_medium.jpg" Margin="-10"/> 
-        </Frame>
+        
 
-        <Frame WidthRequest="150" HeightRequest="150" CornerRadius="100" HorizontalOptions="Center" TranslationY="-120" >
-            <Image Source="https://img.quizur.com/f/img63f5627ee4d2a4.70004822.jpg?lastEdited=1677025922"
-                   HeightRequest="500" Margin="-60" HorizontalOptions="Center"/>
-        </Frame>
+            <Frame CornerRadius="25"  Margin="10" Padding="10" HorizontalOptions="Center">
+                <Image Source="https://www.10wallpaper.com/wallpaper/medium/1208/Water_From_The_Rising_Sun-natural_landscape_wallpaper_medium.jpg" Margin="-10"/>
+            </Frame>
 
-        <Label Text="Luis Angel" TextColor="Black" FontSize="20" FontAttributes="Bold" Padding="10"  HorizontalOptions="Center" TranslationY="-125"/>
-        <Label Text="Estudiante de Programación en Senati " TextColor="Black" FontSize="20"  Margin="10"  HorizontalOptions="Center" TranslationY="-125"/>
+            <Frame WidthRequest="150" HeightRequest="150" CornerRadius="100" HorizontalOptions="Center" TranslationY="-120" >
+                <Image Source="https://img.quizur.com/f/img63f5627ee4d2a4.70004822.jpg?lastEdited=1677025922"
+                           HeightRequest="500" Margin="-60" HorizontalOptions="Center"/>
+            </Frame>
 
-        <ImageButton Source="https://o.remove.bg/downloads/dd859fa2-9811-4168-ad44-27fd74ccd3ac/download-removebg-preview.png" TranslationY="-120" TranslationX="40"
-                     BorderColor="Black" BorderWidth="2" HorizontalOptions="Start" HeightRequest="50" WidthRequest="160" BackgroundColor="Transparent" CornerRadius="6"/>
+            <Label Text="Luis Angel" TextColor="Black" FontSize="20" FontAttributes="Bold" Padding="10"  HorizontalOptions="Center" TranslationY="-125"/>
+            <Label Text="Estudiante de Programación en Senati " TextColor="Black" FontSize="20"  Margin="10"  HorizontalOptions="Center" TranslationY="-125"/>
 
-        <ImageButton Source="https://o.remove.bg/downloads/090f4197-ca2a-443b-9dff-cfd0826263d8/download-removebg-preview.png" TranslationY="-176"
-              HorizontalOptions="Center" BackgroundColor="Transparent" HeightRequest="50" BorderColor="Black" BorderWidth="2" TranslationX="40" CornerRadius="6"/>
+            <ImageButton Source="https://o.remove.bg/downloads/dd859fa2-9811-4168-ad44-27fd74ccd3ac/download-removebg-preview.png" TranslationY="-120" TranslationX="40"
+                             BorderColor="Black" BorderWidth="2" HorizontalOptions="Start" HeightRequest="50" WidthRequest="160" BackgroundColor="Transparent" CornerRadius="6"/>
 
-
-        <Button Text="Fotos" TextColor="Black" BackgroundColor="LightSkyBlue" CornerRadius="6" BorderColor="Black" BorderWidth="2" HorizontalOptions="End"
-                TranslationY="-230" TranslationX="-30"/>
+            <ImageButton Source="https://o.remove.bg/downloads/090f4197-ca2a-443b-9dff-cfd0826263d8/download-removebg-preview.png" TranslationY="-176"
+                      HorizontalOptions="Center" BackgroundColor="Transparent" HeightRequest="50" BorderColor="Black" BorderWidth="2" TranslationX="40" CornerRadius="6"/>
 
 
-
-     
-
-
-
-
-
-
-
-
+            <Button Text="Fotos" TextColor="Black" BackgroundColor="LightSkyBlue" CornerRadius="6" BorderColor="Black" BorderWidth="2" HorizontalOptions="End"
+                        TranslationY="-230" TranslationX="-30"/>
+    
+           
 
     </StackLayout>
     

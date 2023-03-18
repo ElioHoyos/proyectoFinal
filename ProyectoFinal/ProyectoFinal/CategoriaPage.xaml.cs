@@ -15,6 +15,17 @@ namespace ProyectoFinal
         public CategoriaPage()
         {
             InitializeComponent();
+            
+        }
+        public class Superhero
+        {
+            public string Name { get; set; }
+
+            public string AlterEgo { get; set; }
+
+            public string Photo { get; set; }
+
+            public List<string> TeamAffiliations { get; set; }
         }
     }
 }

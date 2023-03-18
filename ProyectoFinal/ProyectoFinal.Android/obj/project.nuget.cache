@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "kaAaeYmvPw/QJOuFJohQiJiDNZjUFt7dcanVoHRDnxOtcJKot/GDirDFTOYrOV4gP7a6crnQWURB3LF4PxTebg==",
+  "dgSpecHash": "qnRo7R4zo53HvhhOFV1HZJZhsPxF5WSs6sXXnx/CotJrczgZh7L2XJPRZWEovH6VhWqD9fi0VzEnqXM2h6A2+w==",
   "success": true,
   "projectFilePath": "D:\\github\\proyectoFinal\\ProyectoFinal\\ProyectoFinal.Android\\ProyectoFinal.Android.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Lenovo\\.nuget\\packages\\carouselview.formsplugin\\6.0.0\\carouselview.formsplugin.6.0.0.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\xamarin.android.circlepageindicator\\1.1.1\\xamarin.android.circlepageindicator.1.1.1.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\xamarin.android.verticalviewpager\\1.1.2\\xamarin.android.verticalviewpager.1.1.2.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\xamarin.androidx.activity\\1.2.4.1\\xamarin.androidx.activity.1.2.4.1.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\xamarin.androidx.annotation\\1.2.0.1\\xamarin.androidx.annotation.1.2.0.1.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\xamarin.androidx.annotation.experimental\\1.1.0.1\\xamarin.androidx.annotation.experimental.1.1.0.1.nupkg.sha512",

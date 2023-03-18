@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "1lfeJZ7omNZVdghNSmz5ke1sQSc9DI+maVVk3eZzqPOOvuI1Og0LYTPbm1ITSwIsH7D2AN98O4Sv0AwutN+yyA==",
+  "dgSpecHash": "VEIAN/0Xh3gkScAGWuS7+WgmPwfh/azacSAc+Sqb9yo27zCO6sXuYR0QzUOeq6qXpk/2EIPlMcI1f1xLVRs2Xw==",
   "success": true,
   "projectFilePath": "D:\\github\\proyectoFinal\\ProyectoFinal\\ProyectoFinal.iOS\\ProyectoFinal.iOS.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Lenovo\\.nuget\\packages\\carouselview.formsplugin\\6.0.0\\carouselview.formsplugin.6.0.0.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"

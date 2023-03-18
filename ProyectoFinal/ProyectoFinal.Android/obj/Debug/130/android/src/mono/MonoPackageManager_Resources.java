@@ -3,6 +3,10 @@ public class MonoPackageManager_Resources {
 	public static String[] Assemblies = new String[]{
 		/* We need to ensure that "ProyectoFinal.Android.dll" comes first in this list. */
 		"ProyectoFinal.Android.dll",
+		"CarouselView.FormsPlugin.Abstractions.dll",
+		"CarouselView.FormsPlugin.Droid.dll",
+		"Com.Android.DeskClock.dll",
+		"Com.ViewPagerIndicator.dll",
 		"FormsViewGroup.dll",
 		"ProyectoFinal.dll",
 		"Xamarin.AndroidX.Activity.dll",

@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "mfXowtLb/b4P+O2pB4SAwVHQGNa3loIEjTsUkeI2O4ML+9vI7uQM+CO0Wfz9dnmGfC9D/+yHmrVz6zwXx4DNVA==",
+  "dgSpecHash": "g0oVooziQqJhanV2VeZqp+DHWYY2Jqg/aK3fSX7wr6SOGLLiG7RY1KFdnJ+bAWUFG4jXfEY8XHV/f2R0ZLP84w==",
   "success": true,
   "projectFilePath": "D:\\github\\proyectoFinal\\ProyectoFinal\\ProyectoFinal\\ProyectoFinal.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Lenovo\\.nuget\\packages\\carouselview.formsplugin\\6.0.0\\carouselview.formsplugin.6.0.0.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
