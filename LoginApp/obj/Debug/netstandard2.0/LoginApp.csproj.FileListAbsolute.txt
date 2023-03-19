@@ -1,0 +1,42 @@
+C:\Users\ZEID FRANCO\source\repos\LoginApp\LoginApp\obj\Debug\netstandard2.0\LoginApp.csproj.AssemblyReference.cache
+C:\Users\ZEID FRANCO\source\repos\LoginApp\LoginApp\obj\Debug\netstandard2.0\LoginApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ZEID FRANCO\source\repos\LoginApp\LoginApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\ZEID FRANCO\source\repos\LoginApp\LoginApp\obj\Debug\netstandard2.0\LoginUI.xaml.g.cs
+C:\Users\ZEID FRANCO\source\repos\LoginApp\LoginApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\ZEID FRANCO\source\repos\LoginApp\LoginApp\obj\Debug\netstandard2.0\LoginApp.AssemblyInfoInputs.cache
+C:\Users\ZEID FRANCO\source\repos\LoginApp\LoginApp\obj\Debug\netstandard2.0\LoginApp.AssemblyInfo.cs
+C:\Users\ZEID FRANCO\source\repos\LoginApp\LoginApp\obj\Debug\netstandard2.0\LoginApp.csproj.CoreCompileInputs.cache
+C:\Users\ZEID FRANCO\source\repos\LoginApp\LoginApp\bin\Debug\netstandard2.0\LoginApp.deps.json
+C:\Users\ZEID FRANCO\source\repos\LoginApp\LoginApp\bin\Debug\netstandard2.0\LoginApp.dll
+C:\Users\ZEID FRANCO\source\repos\LoginApp\LoginApp\bin\Debug\netstandard2.0\LoginApp.pdb
+C:\Users\ZEID FRANCO\source\repos\LoginApp\LoginApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\ZEID FRANCO\source\repos\LoginApp\LoginApp\obj\Debug\netstandard2.0\LoginApp.dll
+C:\Users\ZEID FRANCO\source\repos\LoginApp\LoginApp\obj\Debug\netstandard2.0\refint\LoginApp.dll
+C:\Users\ZEID FRANCO\source\repos\LoginApp\LoginApp\obj\Debug\netstandard2.0\LoginApp.pdb
+C:\Users\ZEID FRANCO\source\repos\LoginApp\LoginApp\obj\Debug\netstandard2.0\ref\LoginApp.dll
+C:\Users\ZEID FRANCO\source\repos\LoginApp\LoginApp\obj\Debug\netstandard2.0\HomePage.xaml.g.cs
+C:\Users\ZEID FRANCO\source\repos\LoginApp\LoginApp\obj\Debug\netstandard2.0\RegisterPage.xaml.g.cs
+C:\Users\zeid_\Documents\GitHub\LoginApp\LoginApp\bin\Debug\netstandard2.0\LoginApp.deps.json
+C:\Users\zeid_\Documents\GitHub\LoginApp\LoginApp\bin\Debug\netstandard2.0\LoginApp.dll
+C:\Users\zeid_\Documents\GitHub\LoginApp\LoginApp\bin\Debug\netstandard2.0\LoginApp.pdb
+C:\Users\zeid_\Documents\GitHub\LoginApp\LoginApp\obj\Debug\netstandard2.0\LoginApp.csproj.AssemblyReference.cache
+C:\Users\zeid_\Documents\GitHub\LoginApp\LoginApp\obj\Debug\netstandard2.0\LoginApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zeid_\Documents\GitHub\LoginApp\LoginApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\zeid_\Documents\GitHub\LoginApp\LoginApp\obj\Debug\netstandard2.0\HomePage.xaml.g.cs
+C:\Users\zeid_\Documents\GitHub\LoginApp\LoginApp\obj\Debug\netstandard2.0\LoginUI.xaml.g.cs
+C:\Users\zeid_\Documents\GitHub\LoginApp\LoginApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\zeid_\Documents\GitHub\LoginApp\LoginApp\obj\Debug\netstandard2.0\RegisterPage.xaml.g.cs
+C:\Users\zeid_\Documents\GitHub\LoginApp\LoginApp\obj\Debug\netstandard2.0\LoginApp.AssemblyInfoInputs.cache
+C:\Users\zeid_\Documents\GitHub\LoginApp\LoginApp\obj\Debug\netstandard2.0\LoginApp.AssemblyInfo.cs
+C:\Users\zeid_\Documents\GitHub\LoginApp\LoginApp\obj\Debug\netstandard2.0\LoginApp.csproj.CoreCompileInputs.cache
+C:\Users\zeid_\Documents\GitHub\LoginApp\LoginApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\zeid_\Documents\GitHub\LoginApp\LoginApp\obj\Debug\netstandard2.0\LoginApp.dll
+C:\Users\zeid_\Documents\GitHub\LoginApp\LoginApp\obj\Debug\netstandard2.0\refint\LoginApp.dll
+C:\Users\zeid_\Documents\GitHub\LoginApp\LoginApp\obj\Debug\netstandard2.0\LoginApp.pdb
+C:\Users\zeid_\Documents\GitHub\LoginApp\LoginApp\obj\Debug\netstandard2.0\ref\LoginApp.dll
+C:\Users\zeid_\Documents\GitHub\LoginApp\LoginApp\obj\Debug\netstandard2.0\FlyoutMenuPage.xaml.g.cs
+C:\Users\zeid_\Documents\GitHub\LoginApp\LoginApp\obj\Debug\netstandard2.0\CategoriaPage.xaml.g.cs
+C:\Users\zeid_\Documents\GitHub\LoginApp\LoginApp\obj\Debug\netstandard2.0\ProductoPage.xaml.g.cs
+C:\Users\zeid_\Documents\GitHub\LoginApp\LoginApp\obj\Debug\netstandard2.0\ClientePage.xaml.g.cs
+C:\Users\zeid_\Documents\GitHub\LoginApp\LoginApp\obj\Debug\netstandard2.0\ProveedorPage.xaml.g.cs
+C:\Users\zeid_\Documents\GitHub\LoginApp\LoginApp\obj\Debug\netstandard2.0\UsuarioPage.xaml.g.cs
