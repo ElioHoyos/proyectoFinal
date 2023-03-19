@@ -9,12 +9,12 @@
         <ListView x:Name="listView" x:FieldModifier="public">
             <ListView.ItemsSource>
                 <x:Array Type="{x:Type local:FlyoutItemPage}">
-                    <local:FlyoutItemPage Title="Inicio" IconSource="house.png" TargetPage="{x:Type local:HomePage}"></local:FlyoutItemPage>
-                    <local:FlyoutItemPage Title="Categorias" IconSource="folder.png" TargetPage="{x:Type local:CategoriaPage}"></local:FlyoutItemPage>
-                    <local:FlyoutItemPage Title="Productos" IconSource="textfile.png" TargetPage="{x:Type local:ProductoPage}"></local:FlyoutItemPage>
-                    <local:FlyoutItemPage Title="Cliente" IconSource="book.png" TargetPage="{x:Type local:ClientePage}"></local:FlyoutItemPage>
-                    <local:FlyoutItemPage Title="Proveedor" IconSource="folder.png" TargetPage="{x:Type local:ProveedorPage}"></local:FlyoutItemPage>
-                    <local:FlyoutItemPage Title="Usuario" IconSource="user.png" TargetPage="{x:Type local:UsuarioPage}"></local:FlyoutItemPage>
+                    <local:FlyoutItemPage Title="Inicio" IconSource="home.png" TargetPage="{x:Type local:HomePage}"></local:FlyoutItemPage>
+                    <local:FlyoutItemPage Title="Categorias" IconSource="cate.png" TargetPage="{x:Type local:CategoriaPage}"></local:FlyoutItemPage>
+                    <local:FlyoutItemPage Title="Productos" IconSource="Product.png" TargetPage="{x:Type local:ProductoPage}"></local:FlyoutItemPage>
+                    <local:FlyoutItemPage Title="Cliente" IconSource="cliente.png" TargetPage="{x:Type local:ClientePage}"></local:FlyoutItemPage>
+                    <local:FlyoutItemPage Title="Proveedor" IconSource="proveedor.png" TargetPage="{x:Type local:ProveedorPage}"></local:FlyoutItemPage>
+                    <local:FlyoutItemPage Title="Usuario" IconSource="usuario.png" TargetPage="{x:Type local:UsuarioPage}"></local:FlyoutItemPage>
                 </x:Array>
             </ListView.ItemsSource>
             <ListView.ItemTemplate>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProyectoFinal.SegundaPage">
+    <ContentPage.Content>
+        <StackLayout Background="#c9ade8">
+            <Frame Grid.Row="1" Margin="10,60,10,-60" BorderColor="#fffaf4" CornerRadius="80" HeightRequest="700">
+                <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"  Padding="30,200,20,0">
+                    <StackLayout>
+                        <Label Text="Hola Bienvenido" FontSize="35" FontAttributes="Bold" TextColor="#1C375C"/>
+                        <Label FontAttributes="Bold" TextColor="#1C375C" x:Name="LabelNombre" FontSize="20"></Label>
+                        <Label FontAttributes="Bold" TextColor="#1C375C" x:Name="LabelCorreo" FontSize="20"></Label>
+                        <Button Text="Ir a Menú" Clicked="Button1_Clicked"></Button>
+                    </StackLayout>
+                </Grid>
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

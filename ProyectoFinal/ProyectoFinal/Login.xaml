@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProyectoFinal.Login">
+    <ContentPage.Content>
+        <StackLayout Background="#c9ade8">
+            <Frame Grid.Row="1" Margin="10,60,10,-60" BorderColor="#fffaf4" CornerRadius="80" HeightRequest="700"
+            >
+                <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"  Padding="30,300,20,0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                    </Grid.RowDefinitions>
+                        <StackLayout>
+                        <Image Source="https://www.fayerwayer.com/resizer/dFDSLv4dHrkcEteV06yZ3eQ9HNY=/800x0/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/metroworldnews/AFMOVVBDTZATHHAXSMOOHW3HGI.jpeg"></Image>
+                            <Label Grid.Row="0"  Text="Login" FontSize="24" FontAttributes="Bold" TextColor="#1C375C" HorizontalOptions="CenterAndExpand"></Label>
+                            <Entry Grid.Row="1" Placeholder="Nombre" Margin="0,10,0,0" PlaceholderColor="Black" TextColor="Black" x:Name="txtNombre" ></Entry>
+                            <Entry Grid.Row="2" Placeholder="Correo" Margin="0,10,0,0" PlaceholderColor="Black" TextColor="Black" x:Name="txtCorreo" ></Entry>
+                            <Entry Grid.Row="3" Placeholder="Contraseña" IsPassword="True" Margin="0,10,0,0" PlaceholderColor="Black" TextColor="Black"></Entry>
+                            <Switch IsToggled="False" x:Name="RememberSwitch" Toggled="RememberMe_toggle_Switch"/>
+                            <Button Text="Ingresar" Clicked="Button_Clicked"></Button>
+                        </StackLayout>
+                </Grid>
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
