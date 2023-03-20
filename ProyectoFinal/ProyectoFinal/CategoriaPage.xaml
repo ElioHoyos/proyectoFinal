@@ -3,54 +3,42 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ProyectoFinal.CategoriaPage"
              Title="Categoria">
-    
-        <ScrollView>
-        
-            <Grid>
-                <Frame BackgroundColor="White" HorizontalOptions="Start" VerticalOptions="Start"
-                       HeightRequest="210" Margin="15" WidthRequest="150" CornerRadius="20" TranslationY="10">
 
-                <Image Source="https://o.remove.bg/downloads/ffca6756-d5b4-4f1d-b6bf-3d85813c056e/imagen-decorativa-infografia-cuentas-usuario-removebg-preview.png"
-                       TranslationY="-65"/>
-                </Frame>
-                <Label Text="Usuarios" TextColor="Black" TranslationY="130" TranslationX="80" FontSize="18"/>
-                <Label Text="150" TextColor="Black" TranslationX="100" TranslationY="165" FontAttributes="Bold" FontSize="19"/>
-                <Button Text="Ingresar" TextColor="Black" TranslationX="70" HorizontalOptions="Start" 
-                        VerticalOptions="Start" TranslationY="210" BorderColor="Black" BorderWidth="2" CornerRadius="5" BackgroundColor="Transparent"/>
-
-
-                <Frame BackgroundColor="Gray" HorizontalOptions="End" VerticalOptions="Start" TranslationX="5"
-                       HeightRequest="210" Margin="15" WidthRequest="150" CornerRadius="20" TranslationY="130">
-
-                <Image Source="https://o.remove.bg/downloads/0043938c-0e53-49d7-b30b-002e0ecffd58/download-removebg-preview.png"
-                      TranslationY="-79" TranslationX="25"/>
-                </Frame>
-                <Label Text="Productos" TextColor="Black" TranslationY="250" TranslationX="265" FontSize="18"/>
-                <Label Text="150" TextColor="Black" TranslationY="280" TranslationX="285"  FontAttributes="Bold" FontSize="19"/>
-                <Button Text="Ingresar" TextColor="Black" TranslationX="-60" HorizontalOptions="End" 
-                            VerticalOptions="Start" TranslationY="320" BorderColor="Black" BorderWidth="2" CornerRadius="5" BackgroundColor="Transparent"/>
-
-                <Frame BackgroundColor="Wheat" HorizontalOptions="Start" VerticalOptions="Start"
-                           HeightRequest="210" Margin="15" WidthRequest="150" CornerRadius="20" TranslationY="300">
-                    <Image Source="https://o.remove.bg/downloads/7fcd66d0-3d57-4c8b-9e99-aaa6e91ef696/download-removebg-preview.png"
-                           TranslationY="-75"/>
-                </Frame>
-                <Label Text="Clintes" TextColor="Black" TranslationY="410" TranslationX="85" FontSize="18"/>
-                <Label Text="150" TextColor="Black" TranslationY="450" TranslationX="95"  FontAttributes="Bold" FontSize="19"/>
-                <Button Text="Ingresar" TextColor="Black" TranslationX="65" HorizontalOptions="Start" 
-                       VerticalOptions="Start" TranslationY="500" BorderColor="Black" BorderWidth="2" CornerRadius="5" BackgroundColor="Transparent"/> 
-
-                <Frame BackgroundColor="LightBlue" HorizontalOptions="End" VerticalOptions="End" TranslationX="5"
-                       HeightRequest="260" Margin="15" WidthRequest="150" CornerRadius="20" TranslationY="-10">
-
-                <Image Source="https://o.remove.bg/downloads/6cc7263e-7474-4e41-88bf-b000722b4f42/download-removebg-preview.png"
-                       HeightRequest="30" TranslationY="-40"/>
-                </Frame>
-                <Label Text="Proveedores" TextColor="Black" TranslationY="620" TranslationX="265" FontSize="18"/>
-                <Label Text="150" TextColor="Black" TranslationY="650" TranslationX="295"  FontAttributes="Bold" FontSize="19"/>
-                <Button Text="Ingresar" TextColor="Black" TranslationX="-50" HorizontalOptions="End" 
-                       VerticalOptions="Start" TranslationY="690" BorderColor="Black" BorderWidth="2" CornerRadius="5" BackgroundColor="Transparent"/>
-
+    <StackLayout>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40"></RowDefinition>
+                <RowDefinition Height="40"></RowDefinition>
+                <RowDefinition Height="10"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Label Text="Categoria" Grid.Row="0" FontAttributes="Bold" FontSize="Large" HorizontalOptions="CenterAndExpand"
+                   VerticalOptions="Center" TextColor="Black"/>
+            <StackLayout Grid.Row="1">
+                <Button x:Name="BtnCategoria" Text="Agregar Categoria" Clicked="Btn2_Clicked" />
+            </StackLayout>
+            <StackLayout Grid.Row="2">
+                <Grid Grid.Row="2" VerticalOptions="CenterAndExpand" Margin="10"
+                      Padding="10" BackgroundColor="White">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="30"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1.5*"></ColumnDefinition>
+                        <ColumnDefinition Width="3*"></ColumnDefinition>
+                        <ColumnDefinition Width="2*"></ColumnDefinition>
+                        <ColumnDefinition Width="1*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Label Text="Nombre" Grid.Column="0" Grid.Row="0"
+                           Style="{DynamicResource headerTable}"/>
+                    <Label Text="Descripcion" Grid.Column="1" Grid.Row="0"
+                           Style="{DynamicResource headerTable}"/>
+                    <Label Text="Opciones" Grid.Column="2" Grid.Row="0"
+                           Style="{DynamicResource headerTable}"/>
+                    <Label Text="Estado" Grid.Column="3" Grid.Row="0"
+                           Style="{DynamicResource headerTable}"/>
+                </Grid>
+            </StackLayout>
         </Grid>
-        </ScrollView>
+    </StackLayout>
 </ContentPage>

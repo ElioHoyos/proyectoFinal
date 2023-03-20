@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProyectoFinal.RegistroUsuario">
+
+    <StackLayout>
+        <Label Text="Registro de Usuario" TranslationX="90" TranslationY="20" FontAttributes="Bold" FontSize="20"/>
+
+        <Label Text="Nombre" HorizontalOptions="Start" TranslationX="20" TranslationY="100"/>
+
+        <Entry Placeholder="Nombre" TranslationY="107" HorizontalOptions="Start" TranslationX="20" WidthRequest="360" FontSize="13"/>
+
+        <Label Text="Tipo de Documento" HorizontalOptions="Start" TranslationX="20" TranslationY="120"/>
+
+        <Entry Placeholder="Tipo de Documento" TranslationY="130" HorizontalOptions="Start" TranslationX="20" WidthRequest="180" FontSize="13"/>
+
+        <Label Text="Dirección" HorizontalOptions="Start" TranslationX="20" TranslationY="130"/>
+
+        <Entry Placeholder="Dirección" TranslationY="130" HorizontalOptions="Start" TranslationX="20" WidthRequest="180" FontSize="13"/>
+
+        <Label Text="Email" HorizontalOptions="Start" TranslationX="20" TranslationY="140"/>
+
+        <Entry Placeholder="Email" TranslationY="140" HorizontalOptions="Start" TranslationX="20" WidthRequest="180" FontSize="13"/>
+
+
+        <Label Text="Celular" HorizontalOptions="Start" TranslationX="190" TranslationY="20"/>
+
+        <Entry Placeholder="Celular" TranslationY="20" HorizontalOptions="Start" TranslationX="190" WidthRequest="180" FontSize="13"/>
+
+        <Button Text="Cancelar" Clicked="Btnr_Clicked" x:Name="Btnr" HorizontalOptions="End" VerticalOptions="Center" CornerRadius="5" 
+                TranslationY="200" TranslationX="-10"/>
+
+        <Button Text="Guardar" Clicked="BtnG_Clicked" HorizontalOptions="Start" VerticalOptions="Center" CornerRadius="5" 
+                TranslationY="140" TranslationX="10"/>
+    </StackLayout>
+</ContentPage>

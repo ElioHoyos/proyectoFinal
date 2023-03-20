@@ -3,89 +3,48 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ProyectoFinal.ProductoPage"
              Title="Productos">
-    <ContentPage.Content>
-        <StackLayout>
-            <ScrollView>
-
-                <Grid>
-                    <!-- Primera fila-->
-                    <Frame BackgroundColor="White" HorizontalOptions="Start" VerticalOptions="Start"
-                       HeightRequest="230" Margin="15" WidthRequest="150" CornerRadius="20" TranslationY="10" Grid.Row="0">
-
-                        <Image Source="https://o.remove.bg/downloads/19e9a7f7-7800-404b-b813-f300775a2912/download-removebg-preview.png"
-                       TranslationY="-65"/>
-                    </Frame>
-                    <Label Text="LENOVO" TextColor="Black" TranslationY="150" TranslationX="80" FontSize="18" FontAttributes="Bold"/>
-                    <Label Text="Procesador Intel Core i7" TextColor="Black" TranslationX="20" TranslationY="175"  FontSize="15" HorizontalTextAlignment="Start"/>
-                    <Label Text="8 GB de Ram" TextColor="Black" TranslationX="20" TranslationY="195"  FontSize="15" HorizontalTextAlignment="Start"/>
-                    <Button Text="Comprar" TextColor="Black" TranslationX="70" HorizontalOptions="Start" 
-                        VerticalOptions="Start" TranslationY="230" BorderColor="Black" BorderWidth="2" CornerRadius="5" BackgroundColor="Transparent"/>
-
-
-                    <Frame BackgroundColor="White" HorizontalOptions="End" VerticalOptions="Start" TranslationX="5"
-                       HeightRequest="230" Margin="15" WidthRequest="150" CornerRadius="20" TranslationY="10" Grid.Row="0">
-
-                        <Image Source="https://o.remove.bg/downloads/e5920aae-6aa3-40a1-b5b2-1b7d89604c4f/download-removebg-preview.png"
-                      TranslationY="-65" />
-                    </Frame>
-                    <Label Text="HP" TextColor="Black" TranslationY="150" TranslationX="295" FontSize="18" FontAttributes="Bold"/>
-                    <Label Text="Procesador Intel Core i7 " TextColor="Black" TranslationY="180" TranslationX="-10" FontSize="15" HorizontalTextAlignment="End"/>
-                    <Label Text="16 GB de Ram" TextColor="Black" TranslationX="-85" TranslationY="200"  FontSize="15" HorizontalTextAlignment="End"/>
-                    <Button Text="Comprar" TextColor="Black" TranslationX="-60" HorizontalOptions="End" 
-                            VerticalOptions="Start" TranslationY="230" BorderColor="Black" BorderWidth="2" CornerRadius="5" BackgroundColor="Transparent"/>
-
-
-                    <!-- Segunda fila-->
-                    <Frame BackgroundColor="White" HorizontalOptions="Start" VerticalOptions="Start"
-                           HeightRequest="230" Margin="15" WidthRequest="150" CornerRadius="20" TranslationY="10" Grid.Row="1">
-                        <Image Source="https://o.remove.bg/downloads/cc0daa42-14a6-44ce-882b-ef549e1daf4b/download-removebg-preview.png"
-                           TranslationY="-75"/>
-                    </Frame>
-                    <Label Text="Gabinete Gamer" TextColor="Black" TranslationY="455" TranslationX="50" FontSize="18" FontAttributes="Bold"/>
-                    <Label Text="$ 150" TextColor="Black" TranslationY="485" TranslationX="95" FontSize="15"/>
-                    <Button Text="Comprar" TextColor="Black" TranslationX="65" HorizontalOptions="Start" 
-                       VerticalOptions="Start" TranslationY="520" BorderColor="Black" BorderWidth="2" CornerRadius="5" BackgroundColor="Transparent"/>
-
-                    <Frame BackgroundColor="White" HorizontalOptions="End" VerticalOptions="End" TranslationX="5"
-                       HeightRequest="230" Margin="15" WidthRequest="150" CornerRadius="20" TranslationY="10" Grid.Row="1">
-
-                        <Image Source="https://o.remove.bg/downloads/f38293f6-1d4d-4889-b1d5-dbec62d99528/images-removebg-preview.png"
-                       HeightRequest="800" TranslationY="-90"/>
-                    </Frame>
-                    <Label Text="Set Completo" TextColor="Black" TranslationY="425" TranslationX="255" FontSize="18" FontAttributes="Bold"/>
-                    <Label Text="Inspirados en Evangelion" TextColor="Black" TranslationY="450" TranslationX="210" FontSize="16" FontAttributes="Bold"/>
-                    <Label Text="$ 1050" TextColor="Black" TranslationY="480" TranslationX="285"   FontSize="15"/>
-                    <Button Text="Comprar" TextColor="Black" TranslationX="-50" HorizontalOptions="End" 
-                       VerticalOptions="Start" TranslationY="520" BorderColor="Black" BorderWidth="2" CornerRadius="5" BackgroundColor="Transparent"/>
-
-                    <!-- Tercera fila-->
-                    <Frame BackgroundColor="SkyBlue" HorizontalOptions="Start" VerticalOptions="Start"
-                           HeightRequest="230" Margin="15" WidthRequest="150" CornerRadius="20" TranslationY="10" Grid.Row="2">
-                        <Image Source="https://o.remove.bg/downloads/7fcd66d0-3d57-4c8b-9e99-aaa6e91ef696/download-removebg-preview.png"
-                           TranslationY="-75" HeightRequest="100"/>
-                    </Frame>
-                    <Label Text="Servicio al Cliente" TextColor="Black" TranslationY="745" TranslationX="30" FontSize="18" FontAttributes="Bold"/>
-                    <Label Text="Atencion las 24H" TextColor="Black" TranslationY="785" TranslationX="50" FontSize="15" />
-                   
-                    <Button Text="Consultar" TextColor="Black" TranslationX="50" HorizontalOptions="Start" 
-                       VerticalOptions="Start" TranslationY="840" BorderColor="Black" BorderWidth="2" CornerRadius="5" BackgroundColor="Transparent"/>
-                    
-
-                    <Frame BackgroundColor="SkyBlue" HorizontalOptions="End" VerticalOptions="End" TranslationX="5"
-                       HeightRequest="230" Margin="15" WidthRequest="150" CornerRadius="20" TranslationY="10" Grid.Row="2">
-
-                        <Image Source="https://o.remove.bg/downloads/6cc7263e-7474-4e41-88bf-b000722b4f42/download-removebg-preview.png"
-                       HeightRequest="10" TranslationY="-40"/>
-                    </Frame>
-                    <Label Text="Envios Directos" TextColor="Black" TranslationY="790" TranslationX="240" FontSize="18" FontAttributes="Bold"/>
-                    <Label Text="Entrega las 24H" TextColor="Black" TranslationY="815" TranslationX="250" FontSize="15" />
-
-                    <Button Text="Consultar" TextColor="Black" TranslationX="-50" HorizontalOptions="End" 
-                       VerticalOptions="Start" TranslationY="850" BorderColor="Black" BorderWidth="2" CornerRadius="5" BackgroundColor="Transparent"/>
-
+    <StackLayout>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40"></RowDefinition>
+                <RowDefinition Height="40"></RowDefinition>
+                <RowDefinition Height="10"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Label Text="Producto" Grid.Row="0" FontAttributes="Bold" FontSize="Large" HorizontalOptions="CenterAndExpand"
+                   VerticalOptions="Center" TextColor="Black"/>
+            <StackLayout Grid.Row="1">
+                <Button x:Name="BtnProducto" Text="Agregar Producto" Clicked="Btn2_Clicked"/>
+            </StackLayout>
+            <StackLayout Grid.Row="2">
+                <Grid Grid.Row="2" VerticalOptions="CenterAndExpand" Margin="10"
+                      Padding="10" BackgroundColor="White">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="30"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="3*"></ColumnDefinition>
+                        <ColumnDefinition Width="2.5*"></ColumnDefinition>
+                        <ColumnDefinition Width="3*"></ColumnDefinition>
+                        <ColumnDefinition Width="2*"></ColumnDefinition>
+                        <ColumnDefinition Width="2.5*"></ColumnDefinition>
+                        <ColumnDefinition Width="2*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Label Text="Opciones" Grid.Column="0" Grid.Row="0" FontSize="11"
+                           Style="{DynamicResource headerTable}"/>
+                    <Label Text="Nombre" Grid.Column="1" Grid.Row="0" FontSize="11"
+                           Style="{DynamicResource headerTable}"/>
+                    <Label Text="Documento" Grid.Column="2" Grid.Row="0" FontSize="11"
+                           Style="{DynamicResource headerTable}"/>
+                    <Label Text="Numero" Grid.Column="3" Grid.Row="0" FontSize="11"
+                           Style="{DynamicResource headerTable}"/>
+                    <Label Text="Telefono" Grid.Column="4" Grid.Row="0" FontSize="11"
+                           Style="{DynamicResource headerTable}"/>
+                    <Label Text="Email" Grid.Column="5" Grid.Row="0" FontSize="11"
+                           Style="{DynamicResource headerTable}"/>
 
                 </Grid>
-            </ScrollView>
-        </StackLayout>
-    </ContentPage.Content>
+            </StackLayout>
+        </Grid>
+    </StackLayout>
 </ContentPage>

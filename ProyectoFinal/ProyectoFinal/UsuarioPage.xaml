@@ -3,11 +3,55 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ProyectoFinal.UsuarioPage"
              Title="Usuarios">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
-    </ContentPage.Content>
+    <StackLayout>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40"></RowDefinition>
+                <RowDefinition Height="40"></RowDefinition>
+                <RowDefinition Height="10"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Label Text="Usuario" Grid.Row="0" FontAttributes="Bold" FontSize="Large" HorizontalOptions="CenterAndExpand"
+                   VerticalOptions="Center" TextColor="Black"/>
+            <StackLayout Grid.Row="1">
+                <Button x:Name="BtnUsuario" Text="Agregar Usuario" Clicked="Btn_Clicked" />
+            </StackLayout>
+            <StackLayout Grid.Row="2">
+                <Grid Grid.Row="2" VerticalOptions="CenterAndExpand" Margin="10"
+                      Padding="10" BackgroundColor="White">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="30"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="3.2*"></ColumnDefinition>
+                        <ColumnDefinition Width="2.8*"></ColumnDefinition>
+                        <ColumnDefinition Width="3.8*"></ColumnDefinition>
+                        <ColumnDefinition Width="2.8*"></ColumnDefinition>
+                        <ColumnDefinition Width="2.8*"></ColumnDefinition>
+                        <ColumnDefinition Width="2*"></ColumnDefinition>
+                        <ColumnDefinition Width="2.5*"></ColumnDefinition>
+                        <ColumnDefinition Width="2.5*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Label Text="Opciones" Grid.Column="0" Grid.Row="0" FontSize="10"
+                           Style="{DynamicResource headerTable}"/>
+                    <Label Text="Nombre" Grid.Column="1" Grid.Row="0" FontSize="10"
+                           Style="{DynamicResource headerTable}"/>
+                    <Label Text="Documento" Grid.Column="2" Grid.Row="0" FontSize="10"
+                           Style="{DynamicResource headerTable}"/>
+                    <Label Text="Numero" Grid.Column="3" Grid.Row="0" FontSize="10"
+                           Style="{DynamicResource headerTable}"/>
+                    <Label Text="Celular" Grid.Column="4" Grid.Row="0" FontSize="10"
+                           Style="{DynamicResource headerTable}"/>
+                    <Label Text="Email" Grid.Column="5" Grid.Row="0" FontSize="10"
+                           Style="{DynamicResource headerTable}"/>
+                    <Label Text="Login" Grid.Column="6" Grid.Row="0" FontSize="10"
+                           Style="{DynamicResource headerTable}"/>
+                    <Label Text="Estado" Grid.Column="7" Grid.Row="0" FontSize="10"
+                           Style="{DynamicResource headerTable}"/>
+                    
+                        
+                </Grid>
+            </StackLayout>
+        </Grid>
+    </StackLayout>
 </ContentPage>

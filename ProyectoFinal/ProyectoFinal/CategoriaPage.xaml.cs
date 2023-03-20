@@ -17,15 +17,10 @@ namespace ProyectoFinal
             InitializeComponent();
             
         }
-        public class Superhero
+        public async void Btn2_Clicked(object sender, EventArgs e)
         {
-            public string Name { get; set; }
 
-            public string AlterEgo { get; set; }
-
-            public string Photo { get; set; }
-
-            public List<string> TeamAffiliations { get; set; }
+            await Application.Current.MainPage.Navigation.PushModalAsync(new CategoriaRegistro());
         }
     }
 }

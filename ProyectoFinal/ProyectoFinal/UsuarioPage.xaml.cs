@@ -16,5 +16,14 @@ namespace ProyectoFinal
         {
             InitializeComponent();
         }
+        public async void Btn_Clicked(object sender, EventArgs e)
+        {
+
+            await Application.Current.MainPage.Navigation.PushModalAsync(new RegistroUsuario());
+
+
+        }
+        
+
     }
 }

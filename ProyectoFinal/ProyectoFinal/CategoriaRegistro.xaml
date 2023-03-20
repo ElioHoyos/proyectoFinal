@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProyectoFinal.CategoriaRegistro">
+
+
+    <StackLayout>
+        <Label Text="Registro de Categoria" TranslationX="90" TranslationY="20" FontAttributes="Bold" FontSize="20"/>
+        
+        <Label Text="Nombre" HorizontalOptions="Start" TranslationX="20" TranslationY="100"/>
+
+        <Entry Placeholder="Nombre" TranslationY="107" HorizontalOptions="Start" TranslationX="20" WidthRequest="360"/>
+
+        <Label Text="Tipo de Documento" HorizontalOptions="Start" TranslationX="20" TranslationY="120"/>
+
+        <Entry Placeholder="N° Documento" TranslationY="120" HorizontalOptions="Start" TranslationX="20" WidthRequest="160"/>
+
+        <Button Text="Cancelar" Clicked="Btnr_Clicked" x:Name="Btnr" HorizontalOptions="Center" VerticalOptions="Center" CornerRadius="5" 
+                TranslationY="200"/>
+    </StackLayout>
+        
+ 
+</ContentPage>
