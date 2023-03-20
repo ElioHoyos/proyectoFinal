@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProyectoFinal.Login">
+    <ContentPage.Content>
+        <StackLayout Background="#66DEFF">
+            <Frame VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" CornerRadius="20" Margin="20,80,20,100">
+                <StackLayout Margin="20,-80,0,10">
+                    <Label Text="LOGIN" FontSize="35" Background="aqua" Margin="0,90,0,10" HorizontalOptions="FillAndExpand" TextDecorations="Underline" TextColor="Black" FontAttributes="Bold"  HorizontalTextAlignment="Center"/>
+                    <Image Source="https://img.freepik.com/foto-gratis/gesto-mano-palma-abierta-que-presenta-holograma-tecnologico_53876-105159.jpg"/>
+                    <Entry x:Name="txtNombre" Placeholder="NOMBRE:" TextColor="Black" PlaceholderColor="Black" FontSize="30"/>
+                    <Entry x:Name="txtCor" Placeholder="CORREO:" TextColor="Black" PlaceholderColor="Black" FontSize="30"/>
+                    <Entry Placeholder="CONTRASEÑA:" TextColor="Black" PlaceholderColor="Black" x:Name="txtCon" FontSize="30" IsPassword="True"/>
+                    <Switch IsToggled="False" x:Name="RememberSwitch" Toggled="RememberMe_toggle_Switch"></Switch>
+                    <Button Text="Iniciar Sesion" TextColor="Black" Background="#A5DCC5" FontAttributes="Bold" FontSize="20" Margin="0,40,0,40" CornerRadius="20" Clicked="Button_Clicked"/>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

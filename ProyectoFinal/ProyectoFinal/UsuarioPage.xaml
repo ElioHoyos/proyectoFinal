@@ -4,7 +4,7 @@
              x:Class="ProyectoFinal.UsuarioPage">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
+            <Label Text="Eche un vistaso a nuestros productos y mas!"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
         </StackLayout>
