@@ -1,36 +1,48 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="ProyectoFinal.RegistroUsuario">
+             x:Class="ProyectoFinal.RegistroUsuario"
+             >
 
     <StackLayout>
-        <Label Text="Registro de Usuario" TranslationX="90" TranslationY="20" FontAttributes="Bold" FontSize="20"/>
-
+        
+        <Label Text="Registro de Usuario" TranslationX="100" TranslationY="40" FontAttributes="Bold" FontSize="20" />
         <Label Text="Nombre" HorizontalOptions="Start" TranslationX="20" TranslationY="100"/>
 
-        <Entry Placeholder="Nombre" TranslationY="107" HorizontalOptions="Start" TranslationX="20" WidthRequest="360" FontSize="13"/>
+        <Entry Placeholder="Nombre" TranslationY="107" HorizontalOptions="Start" TranslationX="20" WidthRequest="360" FontSize="13" />
 
-        <Label Text="Tipo de Documento" HorizontalOptions="Start" TranslationX="20" TranslationY="120"/>
+        <Label Text="Tipo de Documento" HorizontalOptions="Start" TranslationX="20" TranslationY="120" />
 
-        <Entry Placeholder="Tipo de Documento" TranslationY="130" HorizontalOptions="Start" TranslationX="20" WidthRequest="180" FontSize="13"/>
+        <Entry Placeholder="DNI" TranslationY="126" HorizontalOptions="Start" TranslationX="20" WidthRequest="180" FontSize="13" />
 
-        <Label Text="Dirección" HorizontalOptions="Start" TranslationX="20" TranslationY="130"/>
+        <Label Text="Dirección" HorizontalOptions="Start" TranslationX="20" TranslationY="130" />
 
-        <Entry Placeholder="Dirección" TranslationY="130" HorizontalOptions="Start" TranslationX="20" WidthRequest="180" FontSize="13"/>
+        <Entry Placeholder="Dirección" TranslationY="130" HorizontalOptions="Start" TranslationX="15" WidthRequest="180" FontSize="13" />
 
-        <Label Text="Email" HorizontalOptions="Start" TranslationX="20" TranslationY="140"/>
+        <Label Text="Email" HorizontalOptions="Start" TranslationX="20" TranslationY="130" />
 
-        <Entry Placeholder="Email" TranslationY="140" HorizontalOptions="Start" TranslationX="20" WidthRequest="180" FontSize="13"/>
+        <Entry Placeholder="Email" TranslationY="130" HorizontalOptions="Start" TranslationX="15" WidthRequest="180" FontSize="13" />
 
+        <!--Fila derecha-->
+        <Label Text="Número" HorizontalOptions="End" TranslationX="-135" TranslationY="-100" />
 
-        <Label Text="Celular" HorizontalOptions="Start" TranslationX="190" TranslationY="20"/>
+        <Entry Placeholder="Documento" TranslationY="-94" HorizontalOptions="End" TranslationX="-15" WidthRequest="180" FontSize="13" />
 
-        <Entry Placeholder="Celular" TranslationY="20" HorizontalOptions="Start" TranslationX="190" WidthRequest="180" FontSize="13"/>
+        <Label Text="Celular" HorizontalOptions="End" TranslationX="-140" TranslationY="-90" />
+
+        <Entry Placeholder="Celular" TranslationY="-90" HorizontalOptions="End" TranslationX="-10" WidthRequest="180" FontSize="13" />
+
+        <Label Text="Cargo" HorizontalOptions="End" TranslationX="-145" TranslationY="-90" />
+
+        <Entry Placeholder="Cargo" TranslationY="-90" HorizontalOptions="End" TranslationX="-10" WidthRequest="180" FontSize="13" />
 
         <Button Text="Cancelar" Clicked="Btnr_Clicked" x:Name="Btnr" HorizontalOptions="End" VerticalOptions="Center" CornerRadius="5" 
                 TranslationY="200" TranslationX="-10"/>
 
         <Button Text="Guardar" Clicked="BtnG_Clicked" HorizontalOptions="Start" VerticalOptions="Center" CornerRadius="5" 
                 TranslationY="140" TranslationX="10"/>
+
+
+
     </StackLayout>
 </ContentPage>

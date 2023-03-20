@@ -15,7 +15,7 @@
             <Label Text="Proveedor" Grid.Row="0" FontAttributes="Bold" FontSize="Large" HorizontalOptions="CenterAndExpand"
                    VerticalOptions="Center" TextColor="Black"/>
             <StackLayout Grid.Row="1">
-                <Button x:Name="BtnProveedor" Text="Agregar Proveedor" />
+                <Button x:Name="BtnProveedor" Text="Agregar Proveedor" Clicked="btn_clicked"/>
             </StackLayout>
             <StackLayout Grid.Row="2">
                 <Grid Grid.Row="2" VerticalOptions="CenterAndExpand" Margin="10"

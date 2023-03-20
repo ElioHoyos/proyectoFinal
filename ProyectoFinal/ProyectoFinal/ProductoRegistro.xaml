@@ -2,11 +2,39 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ProyectoFinal.ProductoRegistro">
-    <ContentPage.Content>
+    
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
-    </ContentPage.Content>
+        <Label Text="Registro de Productos" TranslationX="100" TranslationY="40" FontAttributes="Bold" FontSize="20" />
+
+        <Label Text="Nombre" HorizontalOptions="Start" TranslationX="22" TranslationY="120"/>
+        <Entry Placeholder="Nombre" TranslationY="126" HorizontalOptions="Start" TranslationX="20" WidthRequest="180" FontSize="13"/>
+
+        <Label Text="Stock" HorizontalOptions="Start" TranslationX="22" TranslationY="130"/>
+
+        <Entry Placeholder="Stock" TranslationY="130" HorizontalOptions="Start" TranslationX="15" WidthRequest="180" FontSize="13"/>
+
+        <Label Text="Imagen" HorizontalOptions="Start" TranslationX="20" TranslationY="130"/>
+
+        <Entry Placeholder="Teléfono" TranslationY="130" HorizontalOptions="Start" TranslationX="15" WidthRequest="180" FontSize="13"/>
+
+           <!--fila derecha-->
+        <Label Text="Categoría" HorizontalOptions="End" TranslationX="-125" TranslationY="-100"/>
+
+        <Entry Placeholder="Stock" TranslationY="-94" HorizontalOptions="End" TranslationX="-15" WidthRequest="180" FontSize="13"/>
+
+        <Label Text="Descripción" HorizontalOptions="End" TranslationX="-110" TranslationY="-90"/>
+
+        <Entry Placeholder="Descripción" TranslationY="-90" HorizontalOptions="End" TranslationX="-10" WidthRequest="180" FontSize="13"/>
+
+        <Label Text="Código" HorizontalOptions="End" TranslationX="-135" TranslationY="-90"/>
+
+        <Entry Placeholder="Código" TranslationY="-90" HorizontalOptions="End" TranslationX="-10" WidthRequest="180" FontSize="13"/>
+
+        <Button Text="Cancelar" Clicked="Btnr_Clicked" x:Name="Btnr" HorizontalOptions="End" VerticalOptions="Center" CornerRadius="5" 
+                TranslationY="200" TranslationX="-10"/>
+
+        <Button Text="Guardar" Clicked="BtnG_Clicked" HorizontalOptions="Start" VerticalOptions="Center" CornerRadius="5" 
+                TranslationY="140" TranslationX="10"/>
+    </StackLayout>
+    
 </ContentPage>

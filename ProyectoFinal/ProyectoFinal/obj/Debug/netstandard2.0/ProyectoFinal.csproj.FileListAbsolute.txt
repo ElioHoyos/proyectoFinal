@@ -75,3 +75,8 @@ C:\Users\SENATI\Documents\GitHub\proyectoFinal\ProyectoFinal\ProyectoFinal\obj\D
 C:\Users\SENATI\Documents\GitHub\proyectoFinal\ProyectoFinal\ProyectoFinal\obj\Debug\netstandard2.0\ClienteRegistro.xaml.g.cs
 C:\Users\SENATI\Documents\GitHub\proyectoFinal\ProyectoFinal\ProyectoFinal\obj\Debug\netstandard2.0\ProductoRegistro.xaml.g.cs
 C:\Users\SENATI\Documents\GitHub\proyectoFinal\ProyectoFinal\ProyectoFinal\obj\Debug\netstandard2.0\RegistroUsuario.xaml.g.cs
+D:\github\proyectoFinal\ProyectoFinal\ProyectoFinal\obj\Debug\netstandard2.0\CategoriaRegistro.xaml.g.cs
+D:\github\proyectoFinal\ProyectoFinal\ProyectoFinal\obj\Debug\netstandard2.0\ClienteRegistro.xaml.g.cs
+D:\github\proyectoFinal\ProyectoFinal\ProyectoFinal\obj\Debug\netstandard2.0\ProductoRegistro.xaml.g.cs
+D:\github\proyectoFinal\ProyectoFinal\ProyectoFinal\obj\Debug\netstandard2.0\RegistroUsuario.xaml.g.cs
+D:\github\proyectoFinal\ProyectoFinal\ProyectoFinal\obj\Debug\netstandard2.0\ProveedorRegistro.xaml.g.cs

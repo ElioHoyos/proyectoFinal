@@ -16,5 +16,9 @@ namespace ProyectoFinal
         {
             InitializeComponent();
         }
+        public async void btn_clicked(object sender, EventArgs e)
+        {
+            await Application.Current.MainPage.Navigation.PushModalAsync(new ProveedorRegistro());
+        }
     }
 }
