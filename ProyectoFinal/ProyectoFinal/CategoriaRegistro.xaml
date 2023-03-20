@@ -11,12 +11,15 @@
 
         <Entry Placeholder="Nombre" TranslationY="107" HorizontalOptions="Start" TranslationX="20" WidthRequest="360"/>
 
-        <Label Text="Tipo de Documento" HorizontalOptions="Start" TranslationX="20" TranslationY="120"/>
+        <Label Text="Descripción" HorizontalOptions="Start" TranslationX="20" TranslationY="120"/>
 
-        <Entry Placeholder="N° Documento" TranslationY="120" HorizontalOptions="Start" TranslationX="20" WidthRequest="160"/>
+        <Entry Placeholder="Descripción" TranslationY="120" HorizontalOptions="Start" TranslationX="20" WidthRequest="360"/>
 
-        <Button Text="Cancelar" Clicked="Btnr_Clicked" x:Name="Btnr" HorizontalOptions="Center" VerticalOptions="Center" CornerRadius="5" 
-                TranslationY="200"/>
+        <Button Text="Cancelar" Clicked="Btnr_Clicked" x:Name="Btnr" HorizontalOptions="Start" VerticalOptions="Center" CornerRadius="5" 
+                TranslationY="200" TranslationX="20"/>
+        
+        <Button Text="Guardar" Clicked="BtnG_Clicked" HorizontalOptions="End" VerticalOptions="Center" CornerRadius="5" 
+                TranslationY="140" TranslationX="-20"/>
     </StackLayout>
         
  

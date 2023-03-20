@@ -20,5 +20,9 @@ namespace ProyectoFinal
         {
             await Application.Current.MainPage.Navigation.PopModalAsync();
         }
-	}
+        public async void BtnG_Clicked(object sender, EventArgs e)
+        {
+            await Application.Current.MainPage.Navigation.PopModalAsync();
+        }
+    }
 }
