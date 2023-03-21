@@ -13,6 +13,10 @@
                        HeightRequest="100"/>
 
                 <Label Text="LM" TextColor="Black" FontSize="20" HorizontalTextAlignment="Center" Padding="15" />
+
+                <Button  Text="Cerrar" ImageSource="close.png" TranslationY="500" Clicked="Btn_Clicked" CornerRadius="5"/>
+
+
             </StackLayout>
         </Grid>
         <ListView x:Name="listView" x:FieldModifier="public" Margin="15">
@@ -24,6 +28,9 @@
                     <local:FlyoutItemPage Title="Cliente" IconSource="book.png" TargetPage="{x:Type local:ClientePage}"></local:FlyoutItemPage>
                     <local:FlyoutItemPage Title="Proveedor" IconSource="folder.png" TargetPage="{x:Type local:ProveedorPage}"></local:FlyoutItemPage>
                     <local:FlyoutItemPage Title="Usuario" IconSource="user.png" TargetPage="{x:Type local:UsuarioPage}"></local:FlyoutItemPage>
+                    <local:FlyoutItemPage Title="Carrusel" IconSource="user.png" TargetPage="{x:Type local:Carrusel}"></local:FlyoutItemPage>
+
+
                 </x:Array>
             </ListView.ItemsSource>
             <ListView.ItemTemplate>
@@ -33,6 +40,7 @@
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="33"></ColumnDefinition>
                                 <ColumnDefinition Width="*"></ColumnDefinition>
+                                
                             </Grid.ColumnDefinitions>
                             <Image WidthRequest="30" Source="{Binding IconSource}"></Image>
                             <Label FontSize="30" Grid.Column="1" VerticalOptions="Center" Text="{Binding Title}"></Label>

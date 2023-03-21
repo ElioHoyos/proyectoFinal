@@ -80,3 +80,5 @@ D:\github\proyectoFinal\ProyectoFinal\ProyectoFinal\obj\Debug\netstandard2.0\Cli
 D:\github\proyectoFinal\ProyectoFinal\ProyectoFinal\obj\Debug\netstandard2.0\ProductoRegistro.xaml.g.cs
 D:\github\proyectoFinal\ProyectoFinal\ProyectoFinal\obj\Debug\netstandard2.0\RegistroUsuario.xaml.g.cs
 D:\github\proyectoFinal\ProyectoFinal\ProyectoFinal\obj\Debug\netstandard2.0\ProveedorRegistro.xaml.g.cs
+C:\Users\SENATI\Documents\GitHub\proyectoFinal\ProyectoFinal\ProyectoFinal\obj\Debug\netstandard2.0\ProveedorRegistro.xaml.g.cs
+C:\Users\SENATI\Documents\GitHub\proyectoFinal\ProyectoFinal\ProyectoFinal\obj\Debug\netstandard2.0\Carrusel.xaml.g.cs

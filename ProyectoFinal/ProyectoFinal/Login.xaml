@@ -16,12 +16,13 @@
 
 
             <Entry Placeholder="Usuario"  TranslationY="70" Margin="20"
-                   HorizontalOptions="Center"   WidthRequest="300" PlaceholderColor="Black"/>
+                   HorizontalOptions="Center"   WidthRequest="300" PlaceholderColor="Black"
+                   x:Name="txtCorreo"/>
 
 
 
             <Entry Placeholder="Contraseña"  TextColor="Black" Margin="10"
-                    TranslationY="90" HorizontalOptions="Center" WidthRequest="300" PlaceholderColor="Black" />
+                    TranslationY="90" HorizontalOptions="Center" WidthRequest="300" PlaceholderColor="Black" x:Name="txtPassword"/>
 
 
             <Button Text="Ingresar" HorizontalOptions="Start" BorderWidth="2" BorderColor="Black"

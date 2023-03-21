@@ -16,10 +16,23 @@ namespace ProyectoFinal
         {
             InitializeComponent();
         }
-        public async void Btn_Clicked(object sender, EventArgs e)
+        public  void Btn_Clicked(object sender, EventArgs e)
         {
+            string correo = txtCorreo.Text;
+            string password = txtPassword.Text;
+            if ((correo == "Arcangel") && (password == "753096"))
+            {
+                 Application.Current.MainPage.Navigation.PushModalAsync(new MainPage());
+                DisplayAlert("Info", "Bienvenido Usuario", "OK");
+                
+
+            }
+            else
+            {
+                DisplayAlert("Alerta", "Usuario o Contraseña Incorrecta","OK");
+            }
             
-            await Application.Current.MainPage.Navigation.PushModalAsync(new MainPage());
+            
             
 
         }

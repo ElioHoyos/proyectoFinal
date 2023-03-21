@@ -10,7 +10,7 @@ using Xamarin.Forms.Xaml;
 namespace ProyectoFinal
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class ProductoPage : ContentPage
+    public partial class ProductoPage : CarouselPage
     {
         public ProductoPage()
         {

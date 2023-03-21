@@ -14,7 +14,7 @@ namespace ProyectoFinal {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("ProductoPage.xaml")]
-    public partial class ProductoPage : global::Xamarin.Forms.ContentPage {
+    public partial class ProductoPage : global::Xamarin.Forms.CarouselPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private global::Xamarin.Forms.Button BtnProducto;

@@ -1,53 +1,75 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ProyectoFinal.ProductoPage"
              Title="Productos">
-    <StackLayout>
-        <Grid>
-            <Grid.RowDefinitions>
-                <RowDefinition Height="40"></RowDefinition>
-                <RowDefinition Height="40"></RowDefinition>
-                <RowDefinition Height="10"></RowDefinition>
-                <RowDefinition Height="*"></RowDefinition>
-            </Grid.RowDefinitions>
-            <Label Text="Producto" Grid.Row="0" FontAttributes="Bold" FontSize="Large" HorizontalOptions="CenterAndExpand"
+    <ContentPage>
+        <StackLayout>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="40"></RowDefinition>
+                    <RowDefinition Height="40"></RowDefinition>
+                    <RowDefinition Height="10"></RowDefinition>
+                    <RowDefinition Height="*"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Label Text="Producto" Grid.Row="0" FontAttributes="Bold" FontSize="Large" HorizontalOptions="CenterAndExpand"
                    VerticalOptions="Center" TextColor="Black"/>
-            <StackLayout Grid.Row="1">
-                <Button x:Name="BtnProducto" Text="Agregar Producto" Clicked="Btn2_Clicked"/>
-            </StackLayout>
-            <StackLayout Grid.Row="2">
-                <Grid Grid.Row="2" VerticalOptions="CenterAndExpand" Margin="10"
+                <StackLayout Grid.Row="1">
+                    <Button x:Name="BtnProducto" Text="Agregar Producto" Clicked="Btn2_Clicked"/>
+                </StackLayout>
+                <StackLayout Grid.Row="2">
+                    <Grid Grid.Row="2" VerticalOptions="CenterAndExpand" Margin="10"
                       Padding="10" BackgroundColor="White">
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="30"></RowDefinition>
-                    </Grid.RowDefinitions>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="3*"></ColumnDefinition>
-                        <ColumnDefinition Width="2.5*"></ColumnDefinition>
-                        <ColumnDefinition Width="3*"></ColumnDefinition>
-                        <ColumnDefinition Width="2*"></ColumnDefinition>
-                        <ColumnDefinition Width="2.5*"></ColumnDefinition>
-                        <ColumnDefinition Width="2.5*"></ColumnDefinition>
-                        <ColumnDefinition Width="2*"></ColumnDefinition>
-                    </Grid.ColumnDefinitions>
-                    <Label Text="Opciones" Grid.Column="0" Grid.Row="0" FontSize="11"
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="30"></RowDefinition>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="3*"></ColumnDefinition>
+                            <ColumnDefinition Width="2.5*"></ColumnDefinition>
+                            <ColumnDefinition Width="3*"></ColumnDefinition>
+                            <ColumnDefinition Width="2*"></ColumnDefinition>
+                            <ColumnDefinition Width="2.5*"></ColumnDefinition>
+                            <ColumnDefinition Width="2.5*"></ColumnDefinition>
+                            <ColumnDefinition Width="2*"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+                        <Label Text="Opciones" Grid.Column="0" Grid.Row="0" FontSize="11"
                            Style="{DynamicResource headerTable}"/>
-                    <Label Text="Nombre" Grid.Column="1" Grid.Row="0" FontSize="11"
+                        <Label Text="Nombre" Grid.Column="1" Grid.Row="0" FontSize="11"
                            Style="{DynamicResource headerTable}"/>
-                    <Label Text="Categoria" Grid.Column="2" Grid.Row="0" FontSize="11"
+                        <Label Text="Categoria" Grid.Column="2" Grid.Row="0" FontSize="11"
                            Style="{DynamicResource headerTable}"/>
-                    <Label Text="Código" Grid.Column="3" Grid.Row="0" FontSize="11"
+                        <Label Text="Código" Grid.Column="3" Grid.Row="0" FontSize="11"
                            Style="{DynamicResource headerTable}"/>
-                    <Label Text="Stock" Grid.Column="4" Grid.Row="0" FontSize="11"
+                        <Label Text="Stock" Grid.Column="4" Grid.Row="0" FontSize="11"
                            Style="{DynamicResource headerTable}"/>
-                    <Label Text="Imagen" Grid.Column="5" Grid.Row="0" FontSize="11"
+                        <Label Text="Imagen" Grid.Column="5" Grid.Row="0" FontSize="11"
                            Style="{DynamicResource headerTable}"/>
-                    <Label Text="Estado" Grid.Column="6" Grid.Row="0" FontSize="11"
+                        <Label Text="Estado" Grid.Column="6" Grid.Row="0" FontSize="11"
                            Style="{DynamicResource headerTable}"/>
 
-                </Grid>
-            </StackLayout>
-        </Grid>
-    </StackLayout>
-</ContentPage>
+                    </Grid>
+                </StackLayout>
+
+            </Grid>
+
+        </StackLayout>
+        
+    </ContentPage>
+
+    <ContentPage>
+        <StackLayout>
+            <Label Text="Naruto"/>
+            <Image Source="https://tinyurl.com/58vmxuh5" HeightRequest="220"/>
+            <Label Text="Naruto"/>
+            <Image Source="https://tinyurl.com/58vmxuh5" HeightRequest="220"/>
+        </StackLayout>
+    </ContentPage>
+    
+    <ContentPage>
+        <StackLayout>
+            <Label Text="Naruto"/>
+            <Image Source="https://tinyurl.com/58vmxuh5" HeightRequest="220"/>
+        </StackLayout>
+    </ContentPage>
+
+</CarouselPage>

@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "VEIAN/0Xh3gkScAGWuS7+WgmPwfh/azacSAc+Sqb9yo27zCO6sXuYR0QzUOeq6qXpk/2EIPlMcI1f1xLVRs2Xw==",
+  "dgSpecHash": "ELAI/iVhVfhd8RHrpYOd7JbRc4mFI3HZCE1s1f8e4ltB8MRlKs0c6VqJwOn+mqT94VuZnkq2u1xv2JLl/blXLQ==",
   "success": true,
-  "projectFilePath": "D:\\github\\proyectoFinal\\ProyectoFinal\\ProyectoFinal.iOS\\ProyectoFinal.iOS.csproj",
+  "projectFilePath": "C:\\Users\\SENATI\\Documents\\GitHub\\proyectoFinal\\ProyectoFinal\\ProyectoFinal.iOS\\ProyectoFinal.iOS.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Lenovo\\.nuget\\packages\\carouselview.formsplugin\\6.0.0\\carouselview.formsplugin.6.0.0.nupkg.sha512",
-    "C:\\Users\\Lenovo\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
-    "C:\\Users\\Lenovo\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
-    "C:\\Users\\Lenovo\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+    "C:\\Users\\SENATI\\.nuget\\packages\\carouselview.formsplugin\\6.0.0\\carouselview.formsplugin.6.0.0.nupkg.sha512",
+    "C:\\Users\\SENATI\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\SENATI\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\SENATI\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
   ],
   "logs": []
 }

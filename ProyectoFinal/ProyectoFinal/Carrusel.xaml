@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProyectoFinal.Carrusel">
+    <ContentPage>
+        <StackLayout>
+            <Label Text="Naruto"/>
+            <Image Source="https://tinyurl.com/58vmxuh5" HeightRequest="220"/>
+            
+        </StackLayout>
+    </ContentPage>
+    <ContentPage>
+        <StackLayout>
+            <Label Text="Naruto"/>
+            <Image Source="https://tinyurl.com/58vmxuh5" HeightRequest="220"/>
+        </StackLayout>
+    </ContentPage>
+    <ContentPage>
+        <StackLayout>
+            <Label Text="Naruto"/>
+            <Image Source="https://tinyurl.com/58vmxuh5" HeightRequest="220"/>
+            
+        </StackLayout>
+    </ContentPage>
+    <ContentPage>
+        <StackLayout>
+            <Label Text="Naruto"/>
+            <Image Source="https://tinyurl.com/58vmxuh5" HeightRequest="180"/>
+           
+        </StackLayout>
+        <!--https://tinyurl.com/app/-->
+    </ContentPage>
+</CarouselPage>

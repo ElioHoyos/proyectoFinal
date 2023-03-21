@@ -1144,24 +1144,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Lenovo\\.nuget\\packages\\": {},
+    "C:\\Users\\SENATI\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\github\\proyectoFinal\\ProyectoFinal\\ProyectoFinal.iOS\\ProyectoFinal.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\SENATI\\Documents\\GitHub\\proyectoFinal\\ProyectoFinal\\ProyectoFinal.iOS\\ProyectoFinal.iOS.csproj",
       "projectName": "ProyectoFinal.iOS",
-      "projectPath": "D:\\github\\proyectoFinal\\ProyectoFinal\\ProyectoFinal.iOS\\ProyectoFinal.iOS.csproj",
-      "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-      "outputPath": "D:\\github\\proyectoFinal\\ProyectoFinal\\ProyectoFinal.iOS\\obj\\",
+      "projectPath": "C:\\Users\\SENATI\\Documents\\GitHub\\proyectoFinal\\ProyectoFinal\\ProyectoFinal.iOS\\ProyectoFinal.iOS.csproj",
+      "packagesPath": "C:\\Users\\SENATI\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\SENATI\\Documents\\GitHub\\proyectoFinal\\ProyectoFinal\\ProyectoFinal.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\SENATI\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1175,8 +1175,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "D:\\github\\proyectoFinal\\ProyectoFinal\\ProyectoFinal\\ProyectoFinal.csproj": {
-              "projectPath": "D:\\github\\proyectoFinal\\ProyectoFinal\\ProyectoFinal\\ProyectoFinal.csproj"
+            "C:\\Users\\SENATI\\Documents\\GitHub\\proyectoFinal\\ProyectoFinal\\ProyectoFinal\\ProyectoFinal.csproj": {
+              "projectPath": "C:\\Users\\SENATI\\Documents\\GitHub\\proyectoFinal\\ProyectoFinal\\ProyectoFinal\\ProyectoFinal.csproj"
             }
           }
         }
