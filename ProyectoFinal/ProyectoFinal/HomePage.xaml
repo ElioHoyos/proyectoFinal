@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="ProyectoFinal.HomePage"
+             x:Class="ProyectoFinal.HomePage"  BackgroundImageSource="https://i.pinimg.com/236x/86/5b/84/865b84d5623088c7b19fa57b07ffbe75.jpg"
              Title="Inicio">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Hola Bienvenido al Sistema"
+            <Label Text="Bienvenido al Sistema" FontSize="30" HeightRequest="40"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
         </StackLayout>
