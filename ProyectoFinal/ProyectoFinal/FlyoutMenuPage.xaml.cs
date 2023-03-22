@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -16,5 +17,10 @@ namespace ProyectoFinal
 		{
 			InitializeComponent ();
 		}
-	}
+
+        private async void Button_Clicked(object sender, EventArgs e)
+        {
+			await Application.Current.MainPage.Navigation.PushModalAsync(new Login());
+        }
+    }
 }

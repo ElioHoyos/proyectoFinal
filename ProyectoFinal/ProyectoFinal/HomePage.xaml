@@ -5,7 +5,7 @@
              Title="Inicio">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Bienvenido al Sistema" FontSize="30" HeightRequest="40"
+            <Label Text="Bienvenido al Sistema" TextColor="White" FontSize="30" HeightRequest="40"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
         </StackLayout>

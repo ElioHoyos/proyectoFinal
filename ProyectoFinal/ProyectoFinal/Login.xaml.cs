@@ -22,19 +22,20 @@ namespace ProyectoFinal
             String sUsuario = txtUsuario.Text;
             String sContraseña = txtContraseña.Text;
 
-            if ((sUsuario == "DannySk") && (sContraseña == "dany24edu22"))
+            if ((sUsuario == "Danny_ge@gmail.com") && (sContraseña == "dany24edu22"))
             {
+                DisplayAlert("Hola", "Bienvenido al Sistema", "ok");
                 Navigation.PushModalAsync(new MainPage ());
             }
             else
             {
-                lblresultado.Text = "La contraseña o Usuario son incorrectos";
+                DisplayAlert("Alert", "Usuario o Contraseña Incorrecto", "Ok");
             }
         }
-        public async void Boton2_Clicked(object sender, EventArgs e)
+        private void TapGestureRecognizer_Tapped(object sender, EventArgs e)
         {
-            await Application.Current.MainPage.Navigation.PushModalAsync(new Registrar());
+            Navigation.PushModalAsync(new Registrar ());
         }
 
-	}
+    }
 }

@@ -14,7 +14,7 @@
             <Label Text="CATEGORIA" Grid.Row="0" FontAttributes="Bold" FontSize="Large" 
                    HorizontalOptions="CenterAndExpand" VerticalOptions="Center"></Label>
             <StackLayout Grid.Row="1">
-                <Button x:Name="btnCategoria" Text="Agregar Categoria"></Button>
+                <Button x:Name="btnCategoria" Text="Agregar Categoria" Clicked="Button_Clicked"></Button>
             </StackLayout>
             <StackLayout Grid.Row="2">
                 <Grid Grid.Row="2" VerticalOptions="CenterAndExpand" Margin="10" 

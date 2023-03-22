@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="ProyectoFinal.Login" BackgroundImageSource="https://i.pinimg.com/736x/12/d4/fe/12d4feacedebe0475d23056fd332b80a.jpg">
+             x:Class="ProyectoFinal.Login" BackgroundImageSource="https://tinyurl.com/4bcpzmea"
+             >
     <ContentPage.Content>
         <StackLayout>
 
@@ -10,9 +11,18 @@
             <Entry Placeholder="Usuario" PlaceholderColor="Gray" TextColor="Wheat" x:Name="txtUsuario"/>
             <Entry Placeholder="Contraseña" PlaceholderColor="Gray" IsPassword="True" x:Name="txtContraseña" TextColor="Wheat"/>
             <Button Text="Iniciar Sesion"  CornerRadius="60"  BackgroundColor="Gray" BorderWidth="2" BorderColor="White" TextColor="Black" Clicked="Botton_Clicked"/>
-            <Button Text="Registrar"  CornerRadius="60" TextColor="Black" BackgroundColor="Gray" BorderWidth="2" BorderColor="White" x:Name="txtBoton2" Clicked="Boton2_Clicked"/>
-            <Label Text="" x:Name="lblresultado"  FontSize="25" TextColor="Red"/>
 
+            <Label HorizontalOptions="Center">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="¿Aun no Tienes una Cuenta?" TextColor="Gray"/>
+                        <Span Text="REGISTRARSE" TextColor="Gray" FontAttributes="Bold" TextDecorations="Underline"/>
+                    </FormattedString>
+                </Label.FormattedText>
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                </Label.GestureRecognizers>
+            </Label>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

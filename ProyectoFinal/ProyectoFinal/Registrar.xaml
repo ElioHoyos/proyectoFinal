@@ -9,7 +9,7 @@
             <Entry Placeholder="Apellidos" PlaceholderColor="White" TextColor="White" x:Name="txtApellido"/>
             <Entry Placeholder="Correo" PlaceholderColor="White" TextColor="White" x:Name="txtCorreo"/>
             <Entry Placeholder="Contraseña" PlaceholderColor="White" TextColor="White" x:Name="txtContraseña"/>
-            <Button VerticalOptions="Center" Text="Registrar" x:Name="Registro" CornerRadius="60" BorderWidth="2" BorderColor="Gray" Clicked="Button_Clicked"/>
+            <Button VerticalOptions="Center" Text="Registrar" Background="Gray" TextColor="Black" x:Name="Registro" CornerRadius="60" BorderWidth="2" BorderColor="White" Clicked="Button_Clicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

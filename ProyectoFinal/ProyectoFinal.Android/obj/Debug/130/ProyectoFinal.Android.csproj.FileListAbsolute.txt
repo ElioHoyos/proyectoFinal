@@ -1286,3 +1286,4 @@ C:\Users\danye\OneDrive\Documentos\ProyectosCloneGithub\proyectoFinal\ProyectoFi
 C:\Users\danye\OneDrive\Documentos\ProyectosCloneGithub\proyectoFinal\ProyectoFinal\ProyectoFinal.Android\obj\Debug\130\stamp\_GenerateJavaStubs.stamp
 C:\Users\danye\OneDrive\Documentos\ProyectosCloneGithub\proyectoFinal\ProyectoFinal\ProyectoFinal.Android\obj\Debug\130\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\danye\OneDrive\Documentos\ProyectosCloneGithub\proyectoFinal\ProyectoFinal\ProyectoFinal.Android\obj\Debug\130\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\danye\OneDrive\Documentos\ProyectosCloneGithub\proyectoFinal\ProyectoFinal\ProyectoFinal.Android\obj\Debug\130\res\drawable\cerrar.png

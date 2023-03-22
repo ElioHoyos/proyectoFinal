@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProyectoFinal.RegistroCategoria" BackgroundImageSource="https://tinyurl.com/bd46pt9x">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Registrar Nueva Categoria" FontAttributes="Bold" FontSize="30" ></Label>
+            <Entry Placeholder= "Nombre" TextColor="Wheat" x:Name="LabelNombre" FontSize="20"/>
+            <Entry Placeholder= "Descripcion" TextColor="Wheat" x:Name="LabelDescripcion" FontSize="20"/>
+            <Entry Placeholder= "Opciones" TextColor="Wheat" x:Name="LabelOpciones" FontSize="20"/>
+            <Entry Placeholder= "Estado" TextColor="Wheat" x:Name="LabelEstado" FontSize="20"/>
+
+            <Button VerticalOptions="Center" Text="Registrar" BackgroundColor="Gray" x:Name="Registrar" CornerRadius="60" BorderWidth="2" BorderColor="White" TextColor="Black" FontSize="15"/>
+            <Button VerticalOptions="Center" Text="Cancelar" BackgroundColor="Gray" x:Name="Cancelar" CornerRadius="60" BorderWidth="2" BorderColor="White"  TextColor="Black" FontSize="15"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

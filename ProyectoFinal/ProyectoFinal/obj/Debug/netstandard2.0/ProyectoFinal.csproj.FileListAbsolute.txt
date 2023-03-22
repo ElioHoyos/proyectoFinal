@@ -46,3 +46,4 @@ C:\Users\danye\OneDrive\Documentos\ProyectosCloneGithub\proyectoFinal\ProyectoFi
 C:\Users\danye\OneDrive\Documentos\ProyectosCloneGithub\proyectoFinal\ProyectoFinal\ProyectoFinal\obj\Debug\netstandard2.0\refint\ProyectoFinal.dll
 C:\Users\danye\OneDrive\Documentos\ProyectosCloneGithub\proyectoFinal\ProyectoFinal\ProyectoFinal\obj\Debug\netstandard2.0\ProyectoFinal.pdb
 C:\Users\danye\OneDrive\Documentos\ProyectosCloneGithub\proyectoFinal\ProyectoFinal\ProyectoFinal\obj\Debug\netstandard2.0\ref\ProyectoFinal.dll
+C:\Users\danye\OneDrive\Documentos\ProyectosCloneGithub\proyectoFinal\ProyectoFinal\ProyectoFinal\obj\Debug\netstandard2.0\RegistroCategoria.xaml.g.cs
