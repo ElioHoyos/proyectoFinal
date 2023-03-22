@@ -20,6 +20,13 @@ namespace ProyectoFinal
 				new Image() { Title = "Dragon Ball", Url = "https://tinyurl.com/3kxdxmpf"},
 				new Image() { Title = "Naruto", Url = "https://tinyurl.com/bdep8b42"}
 			};
+			Carousel.ItemsSource = images;
+			Device.StartTimer(TimeSpan.FromSeconds(5),(Func<bOOL>)() =>
+			{
+				Carousel.Position = (Carousel.Position + 1) % images.Count;
+				return true;
+			});
+			
             
         	}
        
