@@ -1961,3 +1961,5 @@ D:\github\proyectoFinal\ProyectoFinal\ProyectoFinal.Android\obj\Debug\130\res\dr
 C:\Users\SENATI\Documents\GitHub\proyectoFinal\ProyectoFinal\ProyectoFinal.Android\obj\Debug\130\res\drawable\fondo.jpg
 C:\Users\SENATI\Documents\GitHub\proyectoFinal\ProyectoFinal\ProyectoFinal.Android\obj\Debug\130\res\drawable\cerrar.png
 C:\Users\SENATI\Documents\GitHub\proyectoFinal\ProyectoFinal\ProyectoFinal.Android\obj\Debug\130\res\drawable\close.png
+D:\github\proyectoFinal\ProyectoFinal\ProyectoFinal.Android\obj\Debug\130\res\drawable\cerrar.png
+D:\github\proyectoFinal\ProyectoFinal\ProyectoFinal.Android\obj\Debug\130\res\drawable\close.png

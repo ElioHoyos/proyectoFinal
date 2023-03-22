@@ -17,10 +17,17 @@ namespace ProyectoFinal
 		{
 			InitializeComponent ();
 		}
-		public async void Btn_Clicked(object sender, EventArgs e)
+		public async void Button_Clicked(object sender, EventArgs e)
 		{
             bool answer = await DisplayAlert("Question?", "¿Estas Seguro de Salir?", "Yes", "No");
-            Debug.WriteLine("Answer: " + answer);
+            if(answer)
+			{
+              await  Application.Current.MainPage.Navigation.PushModalAsync(new MainPage());
+            }
+			else{
+				await Application.Current.MainPage.Navigation.PopModalAsync();
+
+            }
         }
 	}
 }

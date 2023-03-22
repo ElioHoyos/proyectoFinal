@@ -14,7 +14,7 @@ namespace ProyectoFinal {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Carrusel.xaml")]
-    public partial class Carrusel : global::Xamarin.Forms.CarouselPage {
+    public partial class Carrusel : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {

@@ -19,14 +19,14 @@
             <Label Text="Luis Angel" TextColor="Black" FontSize="20" FontAttributes="Bold" Padding="10"  HorizontalOptions="Center" TranslationY="-125"/>
             <Label Text="Estudiante de Programación en Senati " TextColor="Black" FontSize="20"  Margin="10"  HorizontalOptions="Center" TranslationY="-125"/>
 
-            <ImageButton Source="https://o.remove.bg/downloads/dd859fa2-9811-4168-ad44-27fd74ccd3ac/download-removebg-preview.png" TranslationY="-120" TranslationX="40"
+            <Button TranslationY="-120" TranslationX="40" Text="Publicaciones"
                              BorderColor="Black" BorderWidth="2" HorizontalOptions="Start" HeightRequest="50" WidthRequest="160" BackgroundColor="Transparent" CornerRadius="6"/>
 
-            <ImageButton Source="https://o.remove.bg/downloads/090f4197-ca2a-443b-9dff-cfd0826263d8/download-removebg-preview.png" TranslationY="-176"
+        <ImageButton Source="https://tinyurl.com/3b5xb7bc" TranslationY="-176"
                       HorizontalOptions="Center" BackgroundColor="Transparent" HeightRequest="50" BorderColor="Black" BorderWidth="2" TranslationX="40" CornerRadius="6"/>
 
 
-            <Button Text="Fotos" TextColor="Black" BackgroundColor="LightSkyBlue" CornerRadius="6" BorderColor="Black" BorderWidth="2" HorizontalOptions="End"
+            <Button Text="Fotos" TextColor="Black" BackgroundColor="Transparent" CornerRadius="6" BorderColor="Black" BorderWidth="2" HorizontalOptions="End"
                         TranslationY="-230" TranslationX="-30"/>
     
            

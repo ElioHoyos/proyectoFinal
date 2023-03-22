@@ -14,7 +14,7 @@
 
                 <Label Text="LM" TextColor="Black" FontSize="20" HorizontalTextAlignment="Center" Padding="15" />
 
-                <Button  Text="Cerrar" ImageSource="close.png" TranslationY="500" Clicked="Btn_Clicked" CornerRadius="5"/>
+                <Button  Text="Cerrar" ImageSource="close.png" TranslationY="500" Clicked="Button_Clicked" x:Name="Button_Clicked" CornerRadius="5"/>
 
 
             </StackLayout>
@@ -28,8 +28,7 @@
                     <local:FlyoutItemPage Title="Cliente" IconSource="book.png" TargetPage="{x:Type local:ClientePage}"></local:FlyoutItemPage>
                     <local:FlyoutItemPage Title="Proveedor" IconSource="folder.png" TargetPage="{x:Type local:ProveedorPage}"></local:FlyoutItemPage>
                     <local:FlyoutItemPage Title="Usuario" IconSource="user.png" TargetPage="{x:Type local:UsuarioPage}"></local:FlyoutItemPage>
-                    <local:FlyoutItemPage Title="Carrusel" IconSource="user.png" TargetPage="{x:Type local:Carrusel}"></local:FlyoutItemPage>
-
+                   
 
                 </x:Array>
             </ListView.ItemsSource>

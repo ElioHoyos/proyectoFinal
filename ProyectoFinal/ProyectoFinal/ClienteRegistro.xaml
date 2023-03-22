@@ -7,7 +7,7 @@
         <Label Text="Registro de Cliente" TranslationX="100" TranslationY="40" FontAttributes="Bold" FontSize="20" />
 
         <Label Text="Nombre" HorizontalOptions="Start" TranslationX="22" TranslationY="120"/>
-        <Entry Placeholder="Nombre del Proveedor" TranslationY="126" HorizontalOptions="Start" TranslationX="20" WidthRequest="180" FontSize="13"/>
+        <Entry Placeholder="Nombre del Cliente" TranslationY="126" HorizontalOptions="Start" TranslationX="20" WidthRequest="180" FontSize="13"/>
 
         <Label Text="Nº de Documento" HorizontalOptions="Start" TranslationX="22" TranslationY="130"/>
 
