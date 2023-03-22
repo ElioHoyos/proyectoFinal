@@ -21,7 +21,7 @@ namespace ProyectoFinal
 				new Image() { Title = "Naruto", Url = "https://tinyurl.com/bdep8b42"}
 			};
 			Carousel.ItemsSource = images;
-			Device.StartTimer(TimeSpan.FromSeconds(5),(Func<bOOL>)() =>
+			Device.StartTimer(TimeSpan.FromSeconds(5),(Func<bool>)() =>
 			{
 				Carousel.Position = (Carousel.Position + 1) % images.Count;
 				return true;
