@@ -1,4 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿
+    <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ProyectoFinal.ClientePage">
@@ -13,11 +14,11 @@
             <Label Text="CLIENTE" Grid.Row="0" FontAttributes="Bold" FontSize="Large" 
                    HorizontalOptions="CenterAndExpand" VerticalOptions="Center"></Label>
             <StackLayout Grid.Row="1">
-                <Button x:Name="btnCliente" Text="Agregar Cliente"></Button>
+                <Button x:Name="btnCliente" Text="Agregar Cliente" ></Button>
             </StackLayout>
             <StackLayout Grid.Row="2">
                 <Grid Grid.Row="2" VerticalOptions="CenterAndExpand" Margin="10" 
-                      Padding="10" BackgroundColor="White">
+                      Padding="10" BackgroundColor="Aquamarine">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="30"></RowDefinition>
                     </Grid.RowDefinitions>
@@ -31,16 +32,21 @@
                     </Grid.ColumnDefinitions>
                     <Label Text="Opciones" Grid.Column="0" Grid.Row="0" 
                            Style="{DynamicResource headerTable}"></Label>
+                    <Entry Placeholder="Opciones" TextColor="Aquamarine" x:Name="txtOpciones"></Entry>
                     <Label Text="Nombre" Grid.Column="1" Grid.Row="0" 
                            Style="{DynamicResource headerTable}"></Label>
+                    <Entry Placeholder="Nombre" TextColor="AntiqueWhite" x:Name="txtnombre"></Entry>
                     <Label Text="Documento" Grid.Column="2" Grid.Row="0" 
                            Style="{DynamicResource headerTable}"></Label>
+                    <Entry Placeholder="Documento" TextColor="Azure"></Entry>
                     <Label Text="Número" Grid.Column="3" Grid.Row="0" 
                            Style="{DynamicResource headerTable}"></Label>
-                    <Label Text="Teléfono" Grid.Column="4" Grid.Row="0" 
+                    <Label Text="Teléfono" Grid.Column="4" Grid.Row="0"       
                            Style="{DynamicResource headerTable}"></Label>
+                    <entry placeholder="telefono" textcolor="blue"></entry>
                     <Label Text="Email" Grid.Column="5" Grid.Row="0" 
                            Style="{DynamicResource headerTable}"></Label>
+                    <Button Text="Registrar" Clicked="Button_clicked"></Button>
                 </Grid>
             </StackLayout>
         </Grid>

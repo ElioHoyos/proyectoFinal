@@ -15,6 +15,11 @@ namespace ProyectoFinal
         public ClientePage()
         {
             InitializeComponent();
+            
+        }
+        public async void Button_clicked(object sender, EventArgs e)
+        {
+            string nombre = txtnombre
         }
     }
 }

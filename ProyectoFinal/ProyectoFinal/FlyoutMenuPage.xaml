@@ -15,6 +15,7 @@
                     <local:FlyoutItemPage Title="Cliente" IconSource="book.png" TargetPage="{x:Type local:ClientePage}"></local:FlyoutItemPage>
                     <local:FlyoutItemPage Title="Proveedor" IconSource="folder.png" TargetPage="{x:Type local:ProveedorPage}"></local:FlyoutItemPage>
                     <local:FlyoutItemPage Title="Usuario" IconSource="user.png" TargetPage="{x:Type local:UsuarioPage}"></local:FlyoutItemPage>
+                    
                 </x:Array>
             </ListView.ItemsSource>
             <ListView.ItemTemplate>
