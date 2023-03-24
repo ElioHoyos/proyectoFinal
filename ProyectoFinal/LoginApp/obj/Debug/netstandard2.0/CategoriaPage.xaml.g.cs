@@ -8,13 +8,13 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("LoginApp.CategoriaPage.xaml", "CategoriaPage.xaml", typeof(global::LoginApp.CategoriaPage))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("ProyectoFinal.CategoriaPage.xaml", "CategoriaPage.xaml", typeof(global::LoginApp.CategoriaPage))]
 
 namespace LoginApp {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("CategoriaPage.xaml")]
-    public partial class CategoriaPage : global::Xamarin.Forms.ContentPage {
+    public partial class CategoriaPage : global::Xamarin.Forms.CarouselPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {

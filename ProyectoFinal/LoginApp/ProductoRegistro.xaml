@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LoginApp.ProductoRegistro"
+             Title="Registro de Productos">
+    <ContentPage.Content>
+        <StackLayout Margin="0,20,0,0">
+            <Entry x:Name="txtNombre"
+                   Placeholder="Nombre"
+                   TextColor="Black"
+                   PlaceholderColor="Gray"
+                   Margin="5,0,5,0"></Entry>
+            <Entry x:Name="txtCategoria"
+                   Placeholder="Categeoria"
+                   TextColor="Black"
+                   PlaceholderColor="Gray"
+                   Margin="5,0,5,10"></Entry>
+            <Entry x:Name="txtStocks"
+                   Placeholder="Stocks"
+                   TextColor="Black"
+                   PlaceholderColor="Gray"
+                   Margin="5,0,5,0"></Entry>
+            <Entry x:Name="txtDescripcion"
+                   Placeholder="Descripcion"
+                   TextColor="Black"
+                   PlaceholderColor="Gray"
+                   Margin="5,0,5,0"></Entry>
+            <Image></Image>
+            <Entry x:Name="txtCodigo"
+                   Placeholder="Codigo"
+                   TextColor="Black"
+                   PlaceholderColor="Gray"
+                   Margin="5,0,5,0"></Entry>
+            <Button VerticalOptions="Center"
+                    Text="Registrar"
+                    TextColor="Black"
+                    Background="aquamarine"
+                    BorderWidth="1.5"
+                    CornerRadius="50"
+                    Clicked="Button8_Clicked"></Button>
+            <Button VerticalOptions="Center"
+                    Text="Cancelar"
+                    TextColor="Black"
+                    Background="Aquamarine"
+                    BorderWidth="1.5"
+                    CornerRadius="50"
+                    Clicked="Button9_Clicked"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

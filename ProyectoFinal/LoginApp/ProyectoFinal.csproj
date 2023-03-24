@@ -25,8 +25,14 @@
     <EmbeddedResource Update="CategoriaPage.xaml">
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Update="CategoriaRegistro.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="ClientePage.xaml">
       <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="ClienteRegistro.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="FlyoutMenuPage.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -43,6 +49,12 @@
     <EmbeddedResource Update="ProductoPage.xaml">
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Update="ProductoRegistro.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="ProvedorRegistro.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="ProveedorPage.xaml">
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
@@ -51,6 +63,9 @@
     </EmbeddedResource>
     <EmbeddedResource Update="UsuarioPage.xaml">
       <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="UsuarioRegistro.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>
 </Project>

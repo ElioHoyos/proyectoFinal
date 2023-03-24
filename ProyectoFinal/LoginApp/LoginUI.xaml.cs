@@ -27,11 +27,15 @@ namespace LoginApp
             {
                 DisplayAlert("","El Usuario o Contraseña es incorrecta","Ok");
             }
+            if(txtUsuario.Text == "admin" && txtContraseña.Text == "admin")
+            {
+                DisplayAlert("","Bienvenido al Sistema","ok");
+            }
         }
 
         private void TapGestureRecognizer_Tapped(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new RegisterPage());
+            Navigation.PushModalAsync(new RegisterPage());
         }
     }
 }

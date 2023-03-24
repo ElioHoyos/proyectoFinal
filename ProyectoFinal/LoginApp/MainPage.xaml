@@ -1,9 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <FlyoutPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="LoginApp.MainPage"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            x:Class="LoginApp.MainPage"
             xmlns:local="clr-namespace:LoginApp"
-            Title="Waloware">
+            Title="Darmaspe"
+            NavigationPage.HasNavigationBar="False">
 
     <FlyoutPage.Flyout>
         <local:FlyoutMenuPage x:Name="flyout"></local:FlyoutMenuPage>

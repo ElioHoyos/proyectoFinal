@@ -1,12 +1,50 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="LoginApp.RegisterPage">
+             x:Class="LoginApp.RegisterPage"
+             Title="Registro">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Bienvenido a la pagina de registro"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout Margin="0,20,0,0">
+            <Entry x:Name="txtNombre"
+                   Placeholder="Nombre"
+                   TextColor="Black"
+                   PlaceholderColor="Gray"
+                   Margin="5,0,5,0"></Entry>
+            <Entry x:Name="txtTipoDocumento"
+                   Placeholder="Documento"
+                   TextColor="Black"
+                   PlaceholderColor="Gray"
+                   Margin="5,0,5,10"></Entry>
+            <Entry x:Name="txtDireccion"
+                   Placeholder="Direccion"
+                   TextColor="Black"
+                   PlaceholderColor="Gray"
+                   Margin="5,0,5,0"></Entry>
+            <Entry x:Name="txtEmail"
+                   Placeholder="Correo"
+                   TextColor="Black"
+                   PlaceholderColor="Gray"
+                   Margin="5,0,5,0"></Entry>
+            <Entry x:Name="txtContraseña"
+                   Placeholder="Contraseña"
+                   IsPassword="True"
+                   TextColor="Black"
+                   PlaceholderColor="Gray"
+                   Margin="5,0,5,0"></Entry>
+            <Button VerticalOptions="Center"
+                    Text="Registrar"
+                    TextColor="Black"
+                    Background="aquamarine"
+                    BorderWidth="1.5"
+                    CornerRadius="50"
+                    Clicked="Button16_Clicked"></Button>
+            <Button VerticalOptions="Center"
+                    Text="Cancelar"
+                    TextColor="Black"
+                    BackgroundColor="Aquamarine"
+                    BorderWidth="1.5"
+                    CornerRadius="50"
+                    Clicked="Button17_Clicked"></Button>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

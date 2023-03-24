@@ -16,5 +16,13 @@ namespace LoginApp
 		{
 			InitializeComponent ();
 		}
-	}
+        public void Button16_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushModalAsync(new MainPage ());
+        }
+		public void Button17_Clicked(object sender, EventArgs e)
+		{
+			Navigation.PushModalAsync(new LoginUI());
+		}
+    }
 }

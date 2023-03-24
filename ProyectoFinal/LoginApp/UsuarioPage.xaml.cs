@@ -16,5 +16,10 @@ namespace LoginApp
         {
             InitializeComponent();
         }
+
+        private void Button13_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushModalAsync(new UsuarioRegistro());
+        }
     }
 }

@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\zeid_\\Documents\\GitHub\\proyectoFinal\\LoginApp.Android\\LoginApp.Android.csproj": {}
+    "C:\\Users\\ZEID FRANCO\\Documents\\GitHub\\proyectoFinal\\ProyectoFinal\\LoginApp.Android\\LoginApp.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\zeid_\\Documents\\GitHub\\proyectoFinal\\LoginApp.Android\\LoginApp.Android.csproj": {
+    "C:\\Users\\ZEID FRANCO\\Documents\\GitHub\\proyectoFinal\\ProyectoFinal\\LoginApp.Android\\LoginApp.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zeid_\\Documents\\GitHub\\proyectoFinal\\LoginApp.Android\\LoginApp.Android.csproj",
+        "projectUniqueName": "C:\\Users\\ZEID FRANCO\\Documents\\GitHub\\proyectoFinal\\ProyectoFinal\\LoginApp.Android\\LoginApp.Android.csproj",
         "projectName": "LoginApp.Android",
-        "projectPath": "C:\\Users\\zeid_\\Documents\\GitHub\\proyectoFinal\\LoginApp.Android\\LoginApp.Android.csproj",
-        "packagesPath": "C:\\Users\\zeid_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zeid_\\Documents\\GitHub\\proyectoFinal\\LoginApp.Android\\obj\\",
+        "projectPath": "C:\\Users\\ZEID FRANCO\\Documents\\GitHub\\proyectoFinal\\ProyectoFinal\\LoginApp.Android\\LoginApp.Android.csproj",
+        "packagesPath": "C:\\Users\\ZEID FRANCO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ZEID FRANCO\\Documents\\GitHub\\proyectoFinal\\ProyectoFinal\\LoginApp.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\zeid_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ZEID FRANCO\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid13.0": {
             "projectReferences": {
-              "C:\\Users\\zeid_\\Documents\\GitHub\\proyectoFinal\\LoginApp\\ProyectoFinal.csproj": {
-                "projectPath": "C:\\Users\\zeid_\\Documents\\GitHub\\proyectoFinal\\LoginApp\\ProyectoFinal.csproj"
+              "C:\\Users\\ZEID FRANCO\\Documents\\GitHub\\proyectoFinal\\ProyectoFinal\\LoginApp\\ProyectoFinal.csproj": {
+                "projectPath": "C:\\Users\\ZEID FRANCO\\Documents\\GitHub\\proyectoFinal\\ProyectoFinal\\LoginApp\\ProyectoFinal.csproj"
               }
             }
           }
@@ -54,20 +54,20 @@
         }
       }
     },
-    "C:\\Users\\zeid_\\Documents\\GitHub\\proyectoFinal\\LoginApp\\ProyectoFinal.csproj": {
+    "C:\\Users\\ZEID FRANCO\\Documents\\GitHub\\proyectoFinal\\ProyectoFinal\\LoginApp\\ProyectoFinal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zeid_\\Documents\\GitHub\\proyectoFinal\\LoginApp\\ProyectoFinal.csproj",
+        "projectUniqueName": "C:\\Users\\ZEID FRANCO\\Documents\\GitHub\\proyectoFinal\\ProyectoFinal\\LoginApp\\ProyectoFinal.csproj",
         "projectName": "ProyectoFinal",
-        "projectPath": "C:\\Users\\zeid_\\Documents\\GitHub\\proyectoFinal\\LoginApp\\ProyectoFinal.csproj",
-        "packagesPath": "C:\\Users\\zeid_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zeid_\\Documents\\GitHub\\proyectoFinal\\LoginApp\\obj\\",
+        "projectPath": "C:\\Users\\ZEID FRANCO\\Documents\\GitHub\\proyectoFinal\\ProyectoFinal\\LoginApp\\ProyectoFinal.csproj",
+        "packagesPath": "C:\\Users\\ZEID FRANCO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ZEID FRANCO\\Documents\\GitHub\\proyectoFinal\\ProyectoFinal\\LoginApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\zeid_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ZEID FRANCO\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

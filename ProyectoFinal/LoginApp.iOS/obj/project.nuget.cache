@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "LCmp31gwgfwlUCP3ToZj6+bqt6pm2lL07BgqG8taKiwHj1tAHakLVLSPgYue8K4EGf0HvN3gH9HX0NN0zS9f5Q==",
+  "dgSpecHash": "VgEm9jJdNnxM8lK8ldFVDArVRM9YrqhzKzd02P4TDCpsMTcMBzYpwO9aYrPH77sIbxqjBEOYi71YbOPiHVvpzg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\zeid_\\Documents\\GitHub\\proyectoFinal\\LoginApp.iOS\\LoginApp.iOS.csproj",
+  "projectFilePath": "C:\\Users\\ZEID FRANCO\\Documents\\GitHub\\proyectoFinal\\ProyectoFinal\\LoginApp.iOS\\LoginApp.iOS.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\zeid_\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
-    "C:\\Users\\zeid_\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
-    "C:\\Users\\zeid_\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+    "C:\\Users\\ZEID FRANCO\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\ZEID FRANCO\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\ZEID FRANCO\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
   ],
   "logs": []
 }

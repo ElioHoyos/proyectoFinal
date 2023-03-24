@@ -10,11 +10,16 @@ using Xamarin.Forms.Xaml;
 namespace LoginApp
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class CategoriaPage : ContentPage
+    public partial class CategoriaPage : CarouselPage
     {
         public CategoriaPage()
         {
             InitializeComponent();
+        }
+
+        private void Button4_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushModalAsync(new CategoriaRegistro());
         }
     }
 }

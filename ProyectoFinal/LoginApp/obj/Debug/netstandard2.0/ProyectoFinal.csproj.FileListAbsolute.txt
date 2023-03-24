@@ -46,3 +46,32 @@ C:\Users\zeid_\Documents\GitHub\ProyectoFinal\LoginApp\obj\Debug\netstandard2.0\
 C:\Users\zeid_\Documents\GitHub\ProyectoFinal\LoginApp\obj\Debug\netstandard2.0\refint\ProyectoFinal.dll
 C:\Users\zeid_\Documents\GitHub\ProyectoFinal\LoginApp\obj\Debug\netstandard2.0\ProyectoFinal.pdb
 C:\Users\zeid_\Documents\GitHub\ProyectoFinal\LoginApp\obj\Debug\netstandard2.0\ref\ProyectoFinal.dll
+C:\Users\ZEID FRANCO\Documents\GitHub\proyectoFinal\ProyectoFinal\LoginApp\bin\Debug\netstandard2.0\ProyectoFinal.deps.json
+C:\Users\ZEID FRANCO\Documents\GitHub\proyectoFinal\ProyectoFinal\LoginApp\bin\Debug\netstandard2.0\ProyectoFinal.dll
+C:\Users\ZEID FRANCO\Documents\GitHub\proyectoFinal\ProyectoFinal\LoginApp\bin\Debug\netstandard2.0\ProyectoFinal.pdb
+C:\Users\ZEID FRANCO\Documents\GitHub\proyectoFinal\ProyectoFinal\LoginApp\obj\Debug\netstandard2.0\ProyectoFinal.csproj.AssemblyReference.cache
+C:\Users\ZEID FRANCO\Documents\GitHub\proyectoFinal\ProyectoFinal\LoginApp\obj\Debug\netstandard2.0\ProyectoFinal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ZEID FRANCO\Documents\GitHub\proyectoFinal\ProyectoFinal\LoginApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\ZEID FRANCO\Documents\GitHub\proyectoFinal\ProyectoFinal\LoginApp\obj\Debug\netstandard2.0\CategoriaPage.xaml.g.cs
+C:\Users\ZEID FRANCO\Documents\GitHub\proyectoFinal\ProyectoFinal\LoginApp\obj\Debug\netstandard2.0\ClientePage.xaml.g.cs
+C:\Users\ZEID FRANCO\Documents\GitHub\proyectoFinal\ProyectoFinal\LoginApp\obj\Debug\netstandard2.0\FlyoutMenuPage.xaml.g.cs
+C:\Users\ZEID FRANCO\Documents\GitHub\proyectoFinal\ProyectoFinal\LoginApp\obj\Debug\netstandard2.0\HomePage.xaml.g.cs
+C:\Users\ZEID FRANCO\Documents\GitHub\proyectoFinal\ProyectoFinal\LoginApp\obj\Debug\netstandard2.0\LoginUI.xaml.g.cs
+C:\Users\ZEID FRANCO\Documents\GitHub\proyectoFinal\ProyectoFinal\LoginApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\ZEID FRANCO\Documents\GitHub\proyectoFinal\ProyectoFinal\LoginApp\obj\Debug\netstandard2.0\ProductoPage.xaml.g.cs
+C:\Users\ZEID FRANCO\Documents\GitHub\proyectoFinal\ProyectoFinal\LoginApp\obj\Debug\netstandard2.0\ProveedorPage.xaml.g.cs
+C:\Users\ZEID FRANCO\Documents\GitHub\proyectoFinal\ProyectoFinal\LoginApp\obj\Debug\netstandard2.0\RegisterPage.xaml.g.cs
+C:\Users\ZEID FRANCO\Documents\GitHub\proyectoFinal\ProyectoFinal\LoginApp\obj\Debug\netstandard2.0\UsuarioPage.xaml.g.cs
+C:\Users\ZEID FRANCO\Documents\GitHub\proyectoFinal\ProyectoFinal\LoginApp\obj\Debug\netstandard2.0\ProyectoFinal.AssemblyInfoInputs.cache
+C:\Users\ZEID FRANCO\Documents\GitHub\proyectoFinal\ProyectoFinal\LoginApp\obj\Debug\netstandard2.0\ProyectoFinal.AssemblyInfo.cs
+C:\Users\ZEID FRANCO\Documents\GitHub\proyectoFinal\ProyectoFinal\LoginApp\obj\Debug\netstandard2.0\ProyectoFinal.csproj.CoreCompileInputs.cache
+C:\Users\ZEID FRANCO\Documents\GitHub\proyectoFinal\ProyectoFinal\LoginApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\ZEID FRANCO\Documents\GitHub\proyectoFinal\ProyectoFinal\LoginApp\obj\Debug\netstandard2.0\ProyectoFinal.dll
+C:\Users\ZEID FRANCO\Documents\GitHub\proyectoFinal\ProyectoFinal\LoginApp\obj\Debug\netstandard2.0\refint\ProyectoFinal.dll
+C:\Users\ZEID FRANCO\Documents\GitHub\proyectoFinal\ProyectoFinal\LoginApp\obj\Debug\netstandard2.0\ProyectoFinal.pdb
+C:\Users\ZEID FRANCO\Documents\GitHub\proyectoFinal\ProyectoFinal\LoginApp\obj\Debug\netstandard2.0\ref\ProyectoFinal.dll
+C:\Users\ZEID FRANCO\Documents\GitHub\proyectoFinal\ProyectoFinal\LoginApp\obj\Debug\netstandard2.0\CategoriaRegistro.xaml.g.cs
+C:\Users\ZEID FRANCO\Documents\GitHub\proyectoFinal\ProyectoFinal\LoginApp\obj\Debug\netstandard2.0\ClienteRegistro.xaml.g.cs
+C:\Users\ZEID FRANCO\Documents\GitHub\proyectoFinal\ProyectoFinal\LoginApp\obj\Debug\netstandard2.0\ProductoRegistro.xaml.g.cs
+C:\Users\ZEID FRANCO\Documents\GitHub\proyectoFinal\ProyectoFinal\LoginApp\obj\Debug\netstandard2.0\ProvedorRegistro.xaml.g.cs
+C:\Users\ZEID FRANCO\Documents\GitHub\proyectoFinal\ProyectoFinal\LoginApp\obj\Debug\netstandard2.0\UsuarioRegistro.xaml.g.cs

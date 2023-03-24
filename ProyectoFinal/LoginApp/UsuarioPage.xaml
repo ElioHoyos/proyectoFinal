@@ -1,12 +1,88 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="LoginApp.UsuarioPage">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Bienvendo a la seccion Usuario"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
-    </ContentPage.Content>
+             x:Class="LoginApp.UsuarioPage"
+             Title="Usuario">
+    <StackLayout>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40"></RowDefinition>
+                <RowDefinition Height="40"></RowDefinition>
+                <RowDefinition Height="10"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Label Text="USUARIOS"
+                   Grid.Row="0"
+                   FontAttributes="Bold"
+                   FontSize="Large"
+                   HorizontalOptions="CenterAndExpand"
+                   VerticalOptions="Center"></Label>
+            <StackLayout Grid.Row="1">
+                <Button VerticalOptions="Center"
+                        Text="Agregar Usuario"
+                        TextColor="Black"
+                        BackgroundColor="Aquamarine"
+                        BorderWidth="1.5"
+                        CornerRadius="50"
+                        FontAttributes="Bold"
+                        Clicked="Button13_Clicked"></Button>
+            </StackLayout>
+            <StackLayout Grid.Row="2">
+                <Grid Grid.Row="2"
+                      VerticalOptions="CenterAndExpand"
+                      Margin="10"
+                      Padding="10"
+                      BackgroundColor="White">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="30"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="3.5*"></ColumnDefinition>
+                        <ColumnDefinition Width="3*"></ColumnDefinition>
+                        <ColumnDefinition Width="1.5*"></ColumnDefinition>
+                        <ColumnDefinition Width="3*"></ColumnDefinition>
+                        <ColumnDefinition Width="3.5*"></ColumnDefinition>
+                        <ColumnDefinition Width="2.5*"></ColumnDefinition>
+                        <ColumnDefinition Width="2*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Label Text="Opciones"
+                           Grid.Column="0"
+                           Grid.Row="0"
+                           TextColor="Black"
+                           Style="{DynamicResource headerTable}"></Label>
+                    <Label Text="Nombre"
+                           Grid.Column="1"
+                           Grid.Row="0"
+                           TextColor="Black"
+                           Style="{DynamicResource headerTable}"></Label>
+                    <Label Text="Doc"
+                           Grid.Column="2"
+                           Grid.Row="0"
+                           TextColor="Black"
+                           Style="{DynamicResource headerTable}"></Label>
+                    <Label Text="Numero"
+                           Grid.Column="3"
+                           Grid.Row="0"
+                           TextColor="Black"
+                           Style="{DynamicResource headerTable}"></Label>
+                    <Label Text="Telefono"
+                           Grid.Column="4"
+                           Grid.Row="0"
+                           TextColor="Black"
+                           Style="{DynamicResource headerTable}"></Label>
+                    <Label Text="Email"
+                           Grid.Column="5"
+                           Grid.Row="0"
+                           TextColor="Black"
+                           Style="{DynamicResource headerTable}"></Label>
+                    <Label Text="Login"
+                           Grid.Column="6"
+                           Grid.Row="0"
+                           TextColor="Black"
+                           Style="{DynamicResource headerTable}"></Label>
+
+                </Grid>
+            </StackLayout>
+        </Grid>
+    </StackLayout>
 </ContentPage>

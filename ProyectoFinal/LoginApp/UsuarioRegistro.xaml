@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LoginApp.UsuarioRegistro"
+             Title="Registro de Usuario">
+    <ContentPage.Content>
+        <StackLayout Margin="0,20,0,0">
+            <Entry x:Name="txtNombre"
+                   Placeholder="Nombre"
+                   TextColor="Black"
+                   PlaceholderColor="Gray"
+                   Margin="5,0,5,0"></Entry>
+            <Entry x:Name="txtTipoDocumento"
+                   Placeholder="Documento"
+                   TextColor="Black"
+                   PlaceholderColor="Gray"
+                   Margin="5,0,5,10"></Entry>
+            <Entry x:Name="txtDireccion"
+                   Placeholder="Direccion"
+                   TextColor="Black"
+                   PlaceholderColor="Gray"
+                   Margin="5,0,5,0"></Entry>
+            <Entry x:Name="txtEmail"
+                   Placeholder="Correo"
+                   TextColor="Black"
+                   PlaceholderColor="Gray"
+                   Margin="5,0,5,0"></Entry>
+            <Entry x:Name="txtLogin"
+                   Placeholder="Login"
+                   TextColor="Black"
+                   PlaceholderColor="Gray"
+                   Margin="5,0,5,0"></Entry>
+            <CheckBox Grid.Row="1"
+                      Grid.Column="1"
+                      VerticalOptions="Center" />
+            <Label Grid.Row="1"
+                   Grid.Column="1"
+                   Text="Escritorio"
+                   TextColor="Red"
+                   VerticalOptions="Center" />
+            <Button VerticalOptions="Center"
+                    Text="Registrar"
+                    TextColor="Black"
+                    Background="aquamarine"
+                    BorderWidth="1.5"
+                    CornerRadius="50"
+                    Clicked="Button14_Clicked"></Button>
+            <Button VerticalOptions="Center"
+                    Text="Cancelar"
+                    TextColor="Black"
+                    Background="Aquamarine"
+                    BorderWidth="1.5"
+                    CornerRadius="50"
+                    Clicked="Button15_Clicked"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

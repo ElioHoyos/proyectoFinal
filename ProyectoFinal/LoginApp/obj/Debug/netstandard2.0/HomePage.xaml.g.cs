@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("LoginApp.HomePage.xaml", "HomePage.xaml", typeof(global::LoginApp.HomePage))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("ProyectoFinal.HomePage.xaml", "HomePage.xaml", typeof(global::LoginApp.HomePage))]
 
 namespace LoginApp {
     

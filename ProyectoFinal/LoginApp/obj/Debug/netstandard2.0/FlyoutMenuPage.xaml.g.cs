@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("LoginApp.FlyoutMenuPage.xaml", "FlyoutMenuPage.xaml", typeof(global::LoginApp.FlyoutMenuPage))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("ProyectoFinal.FlyoutMenuPage.xaml", "FlyoutMenuPage.xaml", typeof(global::LoginApp.FlyoutMenuPage))]
 
 namespace LoginApp {
     
