@@ -14,7 +14,7 @@
 
                 <Label Text="LM" TextColor="Black" FontSize="20" HorizontalTextAlignment="Center" Padding="15" />
 
-                <Button  Text="Cerrar" ImageSource="close.png" TranslationY="500" Clicked="Button_Clicked" x:Name="Button_Clicked" CornerRadius="5"/>
+                
 
 
             </StackLayout>

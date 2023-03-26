@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "g0oVooziQqJhanV2VeZqp+DHWYY2Jqg/aK3fSX7wr6SOGLLiG7RY1KFdnJ+bAWUFG4jXfEY8XHV/f2R0ZLP84w==",
+  "dgSpecHash": "rpYVKdCt7u6LNtv2m0AtzY0EN3Rzv0h55ZWSntwwYuffzT4EvaBZjeqGf3fV8dqrPeQJBjWAgFtBoRuv6DZwFA==",
   "success": true,
   "projectFilePath": "D:\\github\\proyectoFinal\\ProyectoFinal\\ProyectoFinal\\ProyectoFinal.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lenovo\\.nuget\\packages\\carouselview.formsplugin\\6.0.0\\carouselview.formsplugin.6.0.0.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"

@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "qnRo7R4zo53HvhhOFV1HZJZhsPxF5WSs6sXXnx/CotJrczgZh7L2XJPRZWEovH6VhWqD9fi0VzEnqXM2h6A2+w==",
+  "dgSpecHash": "q8+6ObOjReioc1cCPw5ZzsnOcQemwkjNkRb9TbKx9Nh9yYdDl/E+bF5/GrPnxs5lQ1HEqJ7bVG0l9MucWBC7sg==",
   "success": true,
   "projectFilePath": "D:\\github\\proyectoFinal\\ProyectoFinal\\ProyectoFinal.Android\\ProyectoFinal.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lenovo\\.nuget\\packages\\carouselview.formsplugin\\6.0.0\\carouselview.formsplugin.6.0.0.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\xamarin.android.circlepageindicator\\1.1.1\\xamarin.android.circlepageindicator.1.1.1.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\xamarin.android.verticalviewpager\\1.1.2\\xamarin.android.verticalviewpager.1.1.2.nupkg.sha512",

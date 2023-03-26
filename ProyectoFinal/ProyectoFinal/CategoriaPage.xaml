@@ -39,6 +39,52 @@
                            Style="{DynamicResource headerTable}"/>
                 </Grid>
             </StackLayout>
+            
         </Grid>
+        
+
+            <Grid Grid.Row="3">
+                <Frame BackgroundColor="White" HorizontalOptions="Start" VerticalOptions="Start"
+                       HeightRequest="210" Margin="15" WidthRequest="150" CornerRadius="20" TranslationY="80">
+                   
+                </Frame>
+                <Label Text="Usuarios" TextColor="Black" TranslationY="150" TranslationX="75" FontSize="18"/>
+                <Label Text="150" TextColor="Black" TranslationX="100" TranslationY="195" FontAttributes="Bold" FontSize="19"/>
+                <Button Text="Ingresar" TextColor="Black" TranslationX="65" HorizontalOptions="Start" 
+                        VerticalOptions="Start" TranslationY="250" BorderColor="Black" BorderWidth="2" CornerRadius="5" BackgroundColor="Transparent"/>
+
+                   <!--sEGUNDO fRAME-->
+                <Frame BackgroundColor="Gray" HorizontalOptions="End" VerticalOptions="Start" TranslationX="5"
+                       HeightRequest="210" Margin="15" WidthRequest="150" CornerRadius="20" TranslationY="80">
+
+                </Frame>
+                <Label Text="Productos" TextColor="Black" TranslationY="150" TranslationX="265" FontSize="18"/>
+                <Label Text="150" TextColor="Black" TranslationY="190" TranslationX="285"  FontAttributes="Bold" FontSize="19"/>
+                <Button Text="Ingresar" TextColor="Black" TranslationX="-55" HorizontalOptions="End" 
+                            VerticalOptions="Start" TranslationY="250" BorderColor="Black" BorderWidth="2" CornerRadius="5" BackgroundColor="Transparent"/>
+
+                <!--Tercer fRAME-->
+                <Frame BackgroundColor="Wheat" HorizontalOptions="Start" VerticalOptions="Start"
+                           HeightRequest="210" Margin="15" WidthRequest="150" CornerRadius="20" TranslationY="360">
+                   
+                </Frame>
+                <Label Text="Clintes" TextColor="Black" TranslationY="410" TranslationX="85" FontSize="18"/>
+                <Label Text="150" TextColor="Black" TranslationY="450" TranslationX="95"  FontAttributes="Bold" FontSize="19"/>
+                <Button Text="Ingresar" TextColor="Black" TranslationX="65" HorizontalOptions="Start" 
+                       VerticalOptions="Start" TranslationY="500" BorderColor="Black" BorderWidth="2" CornerRadius="5" BackgroundColor="Transparent"/>
+
+                <!--Cuarto fRAME-->
+                <Frame BackgroundColor="LightBlue" HorizontalOptions="End" VerticalOptions="End" TranslationX="5"
+                       HeightRequest="210" Margin="15" WidthRequest="150" CornerRadius="20" TranslationY="360">
+                 
+                </Frame>
+                <Label Text="Proveedores" TextColor="Black" TranslationY="420" TranslationX="265" FontSize="18"/>
+                <Label Text="150" TextColor="Black" TranslationY="450" TranslationX="295"  FontAttributes="Bold" FontSize="19"/>
+                <Button Text="Ingresar" TextColor="Black" TranslationX="-50" HorizontalOptions="End" 
+                       VerticalOptions="Start" TranslationY="490" BorderColor="Black" BorderWidth="2" CornerRadius="5" BackgroundColor="Transparent"/>
+
+            </Grid>
+        
     </StackLayout>
+    
 </ContentPage>

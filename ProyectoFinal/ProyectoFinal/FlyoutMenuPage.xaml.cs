@@ -17,17 +17,6 @@ namespace ProyectoFinal
 		{
 			InitializeComponent ();
 		}
-		public async void Button_Clicked(object sender, EventArgs e)
-		{
-            bool answer = await DisplayAlert("Question?", "¿Estas Seguro de Salir?", "Yes", "No");
-            if(answer)
-			{
-              await  Application.Current.MainPage.Navigation.PushModalAsync(new MainPage());
-            }
-			else{
-				await Application.Current.MainPage.Navigation.PopModalAsync();
-
-            }
-        }
+		
 	}
 }
