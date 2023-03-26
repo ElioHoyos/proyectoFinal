@@ -5,13 +5,13 @@
     <ContentPage.Content>
         <StackLayout>
             <Label Text="Registrar Nueva Categoria" FontAttributes="Bold" FontSize="30" ></Label>
-            <Entry Placeholder= "Nombre" TextColor="Wheat" x:Name="LabelNombre" FontSize="20"/>
-            <Entry Placeholder= "Descripcion" TextColor="Wheat" x:Name="LabelDescripcion" FontSize="20"/>
-            <Entry Placeholder= "Opciones" TextColor="Wheat" x:Name="LabelOpciones" FontSize="20"/>
-            <Entry Placeholder= "Estado" TextColor="Wheat" x:Name="LabelEstado" FontSize="20"/>
+            <Entry Placeholder= "Nombre" PlaceholderColor="Wheat" TextColor="White" x:Name="txtNombre" FontSize="20"/>
+            <Entry Placeholder= "Descripcion" PlaceholderColor="Wheat" TextColor="White" x:Name="txtDescripcion" FontSize="20"/>
+            <Entry Placeholder= "Opciones" PlaceholderColor="Wheat" TextColor="White" x:Name="txtOpciones" FontSize="20"/>
+            <Entry Placeholder= "Estado" PlaceholderColor="Wheat" TextColor="White" x:Name="txtEstado" FontSize="20"/>
 
-            <Button VerticalOptions="Center" Text="Registrar" BackgroundColor="Gray" x:Name="Registrar" CornerRadius="60" BorderWidth="2" BorderColor="White" TextColor="Black" FontSize="15"/>
-            <Button VerticalOptions="Center" Text="Cancelar" BackgroundColor="Gray" x:Name="Cancelar" CornerRadius="60" BorderWidth="2" BorderColor="White"  TextColor="Black" FontSize="15"/>
+            <Button VerticalOptions="Center" Text="Registrar" BackgroundColor="Gray" x:Name="Registrar" CornerRadius="60" BorderWidth="2" BorderColor="White" Clicked="Registrar_Clicked" TextColor="Black" FontSize="15"/>
+            <Button VerticalOptions="Center" Text="Cancelar" BackgroundColor="Gray" x:Name="Cancelar" CornerRadius="60" BorderWidth="2" BorderColor="White" Clicked="Cancelar_Clicked" TextColor="Black" FontSize="15"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

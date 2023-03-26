@@ -10,11 +10,15 @@ using Xamarin.Forms.Xaml;
 namespace ProyectoFinal
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class UsuarioPage : ContentPage
+    public partial class UsuarioPage : CarouselPage
     {
         public UsuarioPage()
         {
             InitializeComponent();
+        }
+        public async void Button_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushModalAsync(new  RegistarUsuario ());
         }
     }
 }

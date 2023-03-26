@@ -10,7 +10,7 @@ using Xamarin.Forms.Xaml;
 namespace ProyectoFinal
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class CategoriaPage : ContentPage
+    public partial class CategoriaPage : CarouselPage
     {
         public CategoriaPage()
         {

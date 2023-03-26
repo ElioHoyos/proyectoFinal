@@ -47,3 +47,7 @@ C:\Users\danye\OneDrive\Documentos\ProyectosCloneGithub\proyectoFinal\ProyectoFi
 C:\Users\danye\OneDrive\Documentos\ProyectosCloneGithub\proyectoFinal\ProyectoFinal\ProyectoFinal\obj\Debug\netstandard2.0\ProyectoFinal.pdb
 C:\Users\danye\OneDrive\Documentos\ProyectosCloneGithub\proyectoFinal\ProyectoFinal\ProyectoFinal\obj\Debug\netstandard2.0\ref\ProyectoFinal.dll
 C:\Users\danye\OneDrive\Documentos\ProyectosCloneGithub\proyectoFinal\ProyectoFinal\ProyectoFinal\obj\Debug\netstandard2.0\RegistroCategoria.xaml.g.cs
+C:\Users\danye\OneDrive\Documentos\ProyectosCloneGithub\proyectoFinal\ProyectoFinal\ProyectoFinal\obj\Debug\netstandard2.0\RegistrarProducto.xaml.g.cs
+C:\Users\danye\OneDrive\Documentos\ProyectosCloneGithub\proyectoFinal\ProyectoFinal\ProyectoFinal\obj\Debug\netstandard2.0\RegistrarCliente.xaml.g.cs
+C:\Users\danye\OneDrive\Documentos\ProyectosCloneGithub\proyectoFinal\ProyectoFinal\ProyectoFinal\obj\Debug\netstandard2.0\RegistarUsuario.xaml.g.cs
+C:\Users\danye\OneDrive\Documentos\ProyectosCloneGithub\proyectoFinal\ProyectoFinal\ProyectoFinal\obj\Debug\netstandard2.0\RegistrarProvedor.xaml.g.cs

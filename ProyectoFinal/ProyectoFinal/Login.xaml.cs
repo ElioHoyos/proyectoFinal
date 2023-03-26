@@ -29,7 +29,7 @@ namespace ProyectoFinal
             }
             else
             {
-                DisplayAlert("Alert", "Usuario o Contraseña Incorrecto", "Ok");
+                DisplayAlert("Error", "El Usuario o Contraseña es Incorrecto", "Ok");
             }
         }
         private void TapGestureRecognizer_Tapped(object sender, EventArgs e)

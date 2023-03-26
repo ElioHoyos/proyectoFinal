@@ -16,5 +16,16 @@ namespace ProyectoFinal
 		{
 			InitializeComponent ();
 		}
-	}
+
+        private void Registrar_Clicked(object sender, EventArgs e)
+        {
+            DisplayAlert("Nueva Categoria", "Registrado Correctamente", "ok");
+            Navigation.PushModalAsync(new CategoriaPage());
+        }
+
+        private void Cancelar_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushModalAsync(new MainPage());
+        }
+    }
 }

@@ -4,7 +4,7 @@
              x:Class="ProyectoFinal.Registrar" BackgroundImageSource="https://i.pinimg.com/236x/86/5b/84/865b84d5623088c7b19fa57b07ffbe75.jpg">
     <ContentPage.Content>
         <StackLayout>
-            <Label HorizontalOptions="CenterAndExpand" Text="Nuevo Usuario" TextColor="Gray" FontSize="30" HeightRequest="60"/>
+            <Label HorizontalOptions="CenterAndExpand" Text="Nuevo Usuario" FontAttributes="Bold" TextColor="Gray" FontSize="30" HeightRequest="60"/>
             <Entry Placeholder="Nombre" PlaceholderColor="White" TextColor="White" x:Name="txtNombre"/>
             <Entry Placeholder="Apellidos" PlaceholderColor="White" TextColor="White" x:Name="txtApellido"/>
             <Entry Placeholder="Correo" PlaceholderColor="White" TextColor="White" x:Name="txtCorreo"/>

@@ -7,7 +7,7 @@
         <StackLayout>
 
             <Grid BackgroundColor="Blue"></Grid>
-            <Label HorizontalOptions="CenterAndExpand" Text="Login" TextColor="Wheat" FontSize="60" HeightRequest="100"/>
+            <Label HorizontalOptions="CenterAndExpand" Text="Login" FontAttributes="Bold" TextColor="Wheat" FontSize="60" HeightRequest="100"/>
             <Entry Placeholder="Usuario" PlaceholderColor="Gray" TextColor="Wheat" x:Name="txtUsuario"/>
             <Entry Placeholder="Contraseña" PlaceholderColor="Gray" IsPassword="True" x:Name="txtContraseña" TextColor="Wheat"/>
             <Button Text="Iniciar Sesion"  CornerRadius="60"  BackgroundColor="Gray" BorderWidth="2" BorderColor="White" TextColor="Black" Clicked="Botton_Clicked"/>
@@ -16,7 +16,8 @@
                 <Label.FormattedText>
                     <FormattedString>
                         <Span Text="¿Aun no Tienes una Cuenta?" TextColor="Gray"/>
-                        <Span Text="REGISTRARSE" TextColor="Gray" FontAttributes="Bold" TextDecorations="Underline"/>
+                        
+                        <Span  Text="REGISTRATE" TextColor="Gray" FontAttributes="Bold" TextDecorations="Underline"/>
                     </FormattedString>
                 </Label.FormattedText>
                 <Label.GestureRecognizers>

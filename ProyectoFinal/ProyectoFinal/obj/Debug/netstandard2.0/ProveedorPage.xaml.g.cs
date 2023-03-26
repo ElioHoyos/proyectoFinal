@@ -14,11 +14,15 @@ namespace ProyectoFinal {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("ProveedorPage.xaml")]
-    public partial class ProveedorPage : global::Xamarin.Forms.ContentPage {
+    public partial class ProveedorPage : global::Xamarin.Forms.CarouselPage {
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::Xamarin.Forms.Button btnProveedor;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(ProveedorPage));
+            btnProveedor = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "btnProveedor");
         }
     }
 }

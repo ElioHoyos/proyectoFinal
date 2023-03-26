@@ -14,7 +14,7 @@ namespace ProyectoFinal {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("ClientePage.xaml")]
-    public partial class ClientePage : global::Xamarin.Forms.ContentPage {
+    public partial class ClientePage : global::Xamarin.Forms.CarouselPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private global::Xamarin.Forms.Button btnCliente;

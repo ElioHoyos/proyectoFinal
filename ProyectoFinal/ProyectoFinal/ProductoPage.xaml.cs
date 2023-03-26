@@ -10,11 +10,15 @@ using Xamarin.Forms.Xaml;
 namespace ProyectoFinal
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class ProductoPage : ContentPage
+    public partial class ProductoPage : CarouselPage
     {
         public ProductoPage()
         {
             InitializeComponent();
+        }
+        public async void Button_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushModalAsync(new RegistrarProducto ());
         }
     }
 }

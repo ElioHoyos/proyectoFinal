@@ -14,11 +14,15 @@ namespace ProyectoFinal {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("UsuarioPage.xaml")]
-    public partial class UsuarioPage : global::Xamarin.Forms.ContentPage {
+    public partial class UsuarioPage : global::Xamarin.Forms.CarouselPage {
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::Xamarin.Forms.Button btnUsuario;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(UsuarioPage));
+            btnUsuario = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "btnUsuario");
         }
     }
 }

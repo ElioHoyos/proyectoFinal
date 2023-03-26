@@ -1,12 +1,63 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ProyectoFinal.ProductoPage">
-    <ContentPage.Content>
+    <ContentPage>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="40"></RowDefinition>
+                    <RowDefinition Height="40"></RowDefinition>
+                    <RowDefinition Height="10"></RowDefinition>
+                    <RowDefinition Height="*"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Label Text="PRODUCTOS" Grid.Row="0" FontAttributes="Bold" FontSize="Large" 
+                   HorizontalOptions="CenterAndExpand" VerticalOptions="Center"></Label>
+                <StackLayout Grid.Row="1">
+                    <Button x:Name="btnCategoria" Text="Agregar Producto" Clicked="Button_Clicked"></Button>
+                </StackLayout>
+                <StackLayout Grid.Row="2">
+                    <Grid Grid.Row="2" VerticalOptions="CenterAndExpand" Margin="10" 
+                      Padding="10" BackgroundColor="White">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="30"></RowDefinition>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="1.5*"></ColumnDefinition>
+                            <ColumnDefinition Width="3*"></ColumnDefinition>
+                            <ColumnDefinition Width="3*"></ColumnDefinition>
+                            <ColumnDefinition Width="1*"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+                        <Label Text="Nombre" x:Name="txtNombre" Grid.Column="0" Grid.Row="0" 
+                           Style="{DynamicResource headerTable}"></Label>
+                        <Label Text="Descripción" x:Name="txtDescripcion" Grid.Column="1" Grid.Row="0" 
+                           Style="{DynamicResource headerTable}"></Label>
+                        <Label Text="Codigo/Serie" x:Name="txtcodigo" Grid.Column="2" Grid.Row="0" 
+                           Style="{DynamicResource headerTable}"></Label>
+                        <Label Text="Estado" x:Name="txtEstado" Grid.Column="3" Grid.Row="0" 
+                           Style="{DynamicResource headerTable}"></Label>
+                    </Grid>
+                </StackLayout>
+            </Grid>
         </StackLayout>
-    </ContentPage.Content>
-</ContentPage>
+    </ContentPage>
+
+    <ContentPage>
+        <StackLayout>
+            <Label Text="Naruto" FontSize="20" BackgroundColor="SkyBlue" TextColor="Black" />
+            <Image Source="" />
+        </StackLayout>
+    </ContentPage>
+    <ContentPage>
+        <StackLayout>
+            <Label Text="sasuke" FontSize="20" Background="skyBlue" TextColor="Black" />
+            <Image Source="" />
+        </StackLayout>
+    </ContentPage>
+    <ContentPage>
+        <StackLayout>
+            <Label Text="jiraiya" FontSize="20" Background="skyblue" TextColor="Black" />
+            <Image Source="" />
+        </StackLayout>
+    </ContentPage>
+</CarouselPage>

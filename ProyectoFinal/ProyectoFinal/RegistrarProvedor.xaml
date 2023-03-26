@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProyectoFinal.RegistrarProvedor" BackgroundImageSource="https://tinyurl.com/bd46pt9x">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Registrar Nuevo Proveedor" FontAttributes="Bold" FontSize="30" ></Label>
+            <Entry Placeholder= "Opciones" PlaceholderColor="Wheat" TextColor="White" x:Name="txtOpciones" FontSize="20"/>
+            <Entry Placeholder= "Nombre" PlaceholderColor="Wheat" TextColor="White" x:Name="txtNombre" FontSize="20"/>
+            <Entry Placeholder= "Documento" PlaceholderColor="Wheat" TextColor="White" x:Name="txtDoc" FontSize="20"/>
+            <Entry Placeholder= "Ruc" PlaceholderColor="Wheat" TextColor="White" x:Name="txtRuc" FontSize="20"/>
+            <Entry Placeholder= "Telefono" PlaceholderColor="Wheat" TextColor="White" x:Name="txtTelefono" FontSize="20"/>
+            <Entry Placeholder= "Email" PlaceholderColor="Wheat" TextColor="White" x:Name="txtEmail" FontSize="20"/>
+
+            <Button VerticalOptions="Center" Text="Registrar" BackgroundColor="Gray" x:Name="Registrar" CornerRadius="60" BorderWidth="2" BorderColor="White" Clicked="Registrar_Clicked" TextColor="Black" FontSize="15"/>
+            <Button VerticalOptions="Center" Text="Cancelar" BackgroundColor="Gray" x:Name="Cancelar" CornerRadius="60" BorderWidth="2" BorderColor="White" Clicked="Cancelar_Clicked" TextColor="Black" FontSize="15"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
