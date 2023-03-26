@@ -14,23 +14,23 @@ namespace ProyectoFinal
 		public Carrusel ()
 		{
 			InitializeComponent ();
-            BindingContext = new MyViewModel();
+			List<Image> imagenes = new List<Image>()
+			{
+				new Image() { Title = "Naruto Shippuden", Url = "https://tinyurl.com/3ck8rrmx"},
+				new Image() { Title = "Dragon Ball", Url = "https://tinyurl.com/3kxdxmpf"},
+				new Image() { Title = "Naruto", Url = "https://tinyurl.com/bdep8b42"}
+			};
+			Carousel.ItemsSource = images;
+			Device.StartTimer(TimeSpan.FromSeconds(5),(Func<bool>)() =>
+			{
+				Carousel.Position = (Carousel.Position + 1) % images.Count;
+				return true;
+			});
+			
+            
+        	}
+       
         }
-        public class MyViewModel
-        {
-            public List<string> Images { get; set; }
 
-            public MyViewModel()
-            {
-                Images = new List<string>
-        {
-            "https://tinyurl.com/58vmxuh5",
-            "https://tinyurl.com/mpc9kpfx"
-
-
-        };
-            }
-        }
-
-    }
+    
 }
